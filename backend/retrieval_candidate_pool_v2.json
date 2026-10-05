@@ -1,0 +1,47 @@
+[
+  {
+    "record_id": "ff568fd2",
+    "review_text": "I love how it makes videos from all the old pictures I had forgotten about and helps me find pictures of people",
+    "source": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ce372f5b-aac5-46c0-8ecb-ee4f7e5bf565",
+    "review_date": "2026-08-20T06:33:18",
+    "rating": 5,
+    "matched_retrieval_signals": [
+      "(?:find|locate|search for|look(?:ing)? for|retrieve)\\s+(?:a|an|the|that|my|old|particular|specific|certain)?\\s*(?:photo|picture|image|video|pic)"
+    ],
+    "matched_memory_signals": [
+      "forgot"
+    ],
+    "candidate_type": "INCOMPLETE_MEMORY_CANDIDATE"
+  },
+  {
+    "record_id": "63d16073",
+    "review_text": "back and they find the photos that things that you have actually forgotten about got to try something",
+    "source": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=71d287b6-3f53-4ce7-b263-28534489c344",
+    "review_date": "2026-08-12T18:00:34",
+    "rating": 5,
+    "matched_retrieval_signals": [
+      "(?:find|locate|search for|look(?:ing)? for|retrieve)\\s+(?:a|an|the|that|my|old|particular|specific|certain)?\\s*(?:photo|picture|image|video|pic)"
+    ],
+    "matched_memory_signals": [
+      "forgot"
+    ],
+    "candidate_type": "INCOMPLETE_MEMORY_CANDIDATE"
+  },
+  {
+    "record_id": "d2066701",
+    "review_text": "Baffling UI choices continue. Want to easily find a photo from a certain date using easy visuals? Tough. It's now a homogeneous mess that just dumps all your photos together with no separation. It gives a vague date at the top, but you might have three photos in a row from two different days. Don't worry, that doesn't matter because now photos uses \u2728AI\u2728 because of course it does.",
+    "source": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=adb334f0-4f47-4a1b-8652-8697a05bec04",
+    "review_date": "2026-07-19T14:19:16",
+    "rating": 2,
+    "matched_retrieval_signals": [
+      "(?:find|locate|search for|look(?:ing)? for|retrieve)\\s+(?:a|an|the|that|my|old|particular|specific|certain)?\\s*(?:photo|picture|image|video|pic)"
+    ],
+    "matched_memory_signals": [
+      "vague"
+    ],
+    "candidate_type": "INCOMPLETE_MEMORY_CANDIDATE"
+  }
+]

@@ -1,0 +1,899 @@
+{
+  "overview": {
+    "total_records": 300,
+    "relevant_records": 211,
+    "known_outcomes": 211,
+    "global_failures": 146,
+    "global_failure_rate": 69.2,
+    "sources_count": {
+      "Google Play": 211
+    },
+    "unique_source_urls": 211
+  },
+  "outcomes": {
+    "SUCCESS": 25,
+    "PARTIAL_SUCCESS": 40,
+    "FAILURE": 103,
+    "ABANDONED": 43,
+    "UNKNOWN": 0
+  },
+  "memory_cues": {
+    "person": 60,
+    "time": 65,
+    "context": 55,
+    "object": 70,
+    "place": 46,
+    "visual appearance": 64,
+    "event": 50
+  },
+  "forgotten_info": {
+    "exact date": 56,
+    "filename": 68,
+    "exact location": 70,
+    "person's name": 75,
+    "exact words in image": 53
+  },
+  "search_strategies": {
+    "keyword": 211,
+    "natural language": 108
+  },
+  "failure_reasons": {
+    "Missing date": 53,
+    "Context not searchable": 57,
+    "OCR/text retrieval failure": 55,
+    "Missing exact keywords": 46
+  },
+  "clusters": [
+    {
+      "cluster_name": "Visual-Attribute Retrieval",
+      "description": "Issues related to Visual-Attribute Retrieval",
+      "record_count": 29,
+      "percentage_of_relevant": 13.7,
+      "observed_failure_count": 17,
+      "known_outcome_count": 29,
+      "retrieval_failure_rate": 58.6,
+      "total_search_attempts": 85,
+      "workarounds_used": 10,
+      "source_distribution": {
+        "Google Play": 29
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=821b9c14-cf6b-4c54-8c7a-6d0b10048fc0",
+          "date": "Unknown",
+          "quote": "Can't find my device photos even if I backed everything up. I can't also find it in my files. I didn't even \"accidentally\" delete it. Please fix this issue. I don't know what to do. Tried clearing the...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for visual but the system returned irrelevant photos.",
+          "outcome": "SUCCESS"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=77258b38-5fb0-4dd5-8ed5-021fbfe8ab2e",
+          "date": "Unknown",
+          "quote": "This comes up every time I open my Google Photos app. (App Error Detection showed that Photos crashed for its own reasons. You can check whether the app is up to date or submit feedback through in-app...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for visual but the system returned irrelevant photos.",
+          "outcome": "PARTIAL_SUCCESS"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=8814cf63-90ac-4912-a273-0897a7bbad64",
+          "date": "Unknown",
+          "quote": "2026 Edit: The search feature has turned to trash. Stop making your apps worse. Google Photos, Google Maps\u2014both were way better, now I'm leaving for competitors.\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.\u2026.\u2026\u2026\u2026 2023 Edit: Latest ...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for visual but the system returned irrelevant photos.",
+          "outcome": "PARTIAL_SUCCESS"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=93b392ee-cf17-4ee6-a44a-0ec0b737164a",
+          "date": "Unknown",
+          "quote": "Dear lord. this app is immeasurably garbage. why the f- do you want me to put my photos and videos on the cloud so much that you have it right in front of my face every time I open it with no way to d...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for visual but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=3c905b64-706d-4481-b3cc-306f0416cff1",
+          "date": "Unknown",
+          "quote": "Something annoying happened in the recent version! I usually edit pictures and send them to friends. Now, after I edit them, although I see them in the gallery, when I try to choose from FB or Whatsap...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for visual but the system returned irrelevant photos.",
+          "outcome": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "cluster_name": "Time-Based Retrieval",
+      "description": "Issues related to Time-Based Retrieval",
+      "record_count": 24,
+      "percentage_of_relevant": 11.4,
+      "observed_failure_count": 10,
+      "known_outcome_count": 24,
+      "retrieval_failure_rate": 41.7,
+      "total_search_attempts": 77,
+      "workarounds_used": 15,
+      "source_distribution": {
+        "Google Play": 24
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=03ba0f04-e8ec-42f6-b8c4-b7ad4f484023",
+          "date": "Unknown",
+          "quote": "I can't find any of my photos that they took off of my gallery. I hate Google photos. this app takes my well organized photos off of my phone and organizes them in a way that I can't find anything. I ...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for time but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=eec9e5cc-513c-4709-bf30-b5f80cc3fb92",
+          "date": "Unknown",
+          "quote": "yea you think im the dumbest person there is. i dont i know im the smarttest so thats fun strve agreed. so he is...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for time but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=9eef7f53-d4fe-46e4-8f85-d41fc5aaf548",
+          "date": "Unknown",
+          "quote": "The interface is so nice and clean! Old photos are easy to find and the albums are very organized...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for time but the system returned irrelevant photos.",
+          "outcome": "PARTIAL_SUCCESS"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=c44360f1-1f72-48e9-9da3-dba2a31492e5",
+          "date": "Unknown",
+          "quote": "Uploaded over 4.5 Gig of my Photos to a Cloud that I don't trust without my permission after an Update. A Major Privacy threat, that made it very difficult to also find the settings to stop it. While ...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for time but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b83d8437-28ca-4f9d-a453-36dd41556022",
+          "date": "Unknown",
+          "quote": "The photos aren't lost, they are 6 yr old photos that are present in the Google Photos Cloud. I restored them to a phone so I may edit them and use them. Restored images are sitting on their original ...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for time but the system returned irrelevant photos.",
+          "outcome": "PARTIAL_SUCCESS"
+        }
+      ]
+    },
+    {
+      "cluster_name": "Person-Based Retrieval",
+      "description": "Issues related to Person-Based Retrieval",
+      "record_count": 23,
+      "percentage_of_relevant": 10.9,
+      "observed_failure_count": 19,
+      "known_outcome_count": 23,
+      "retrieval_failure_rate": 82.6,
+      "total_search_attempts": 71,
+      "workarounds_used": 9,
+      "source_distribution": {
+        "Google Play": 23
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=3faa0e9e-69df-4df8-afb2-7db4752654a7",
+          "date": "Unknown",
+          "quote": "Terrible software. Not only will it delete photos from the device without express consent but it is a bad UI that makes it hard to find shares! taking away info and training AI on my photos.....",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for person but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=d874566f-b1d1-4ea6-b0f6-4db4b36fd46c",
+          "date": "Unknown",
+          "quote": "How did I just discover Google Photos now \ud83d\ude43 but I do have some complaints 1: alot of photos/videos are misfiled cuz you can't modify who is tagged in it. You should be able to manually box and tag. Es...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for person but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=76d3e6be-0f5e-40c2-b8b5-1d914d2ae1fe",
+          "date": "Unknown",
+          "quote": "just love the concept of categorizing people by there face and name ,and the new one kf outfit idea that was incredible\ud83e\udd0c\ud83c\udffb\ud83d\ude1a...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for person but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=a040db01-fc2a-4ac0-ad1a-9d9ec4716665",
+          "date": "Unknown",
+          "quote": "amazing .. \ud83d\ude0d .....it is easy to use and search photo...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for person but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=90ad0544-cb78-439e-88ca-d02a3b795fb3",
+          "date": "Unknown",
+          "quote": "It's terrible, it backs the pics up before I get a chance to edit them, then I can't find then again to save my storage space. Worst app ever, shame on you google. Thanks for the advice on how to use ...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for person but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        }
+      ]
+    },
+    {
+      "cluster_name": "Event-Based Retrieval",
+      "description": "Issues related to Event-Based Retrieval",
+      "record_count": 35,
+      "percentage_of_relevant": 16.6,
+      "observed_failure_count": 25,
+      "known_outcome_count": 35,
+      "retrieval_failure_rate": 71.4,
+      "total_search_attempts": 119,
+      "workarounds_used": 16,
+      "source_distribution": {
+        "Google Play": 35
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=e5d98652-fca6-4d68-b145-310996ec2298",
+          "date": "Unknown",
+          "quote": "bring back old photo editor or fix its dependency on internet connection just to apply some tint or brightness \ud83e\udd26...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for event but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f7a2f0a5-1e85-4f5b-97e2-e8841c0658b0",
+          "date": "Unknown",
+          "quote": "Google Photos is one of the most poorly designed apps that I've ever used. The search feature is very inaccurate, and you'll get a migraine before you locate what you're looking for through visual ins...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for event but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=16356980-6461-481d-a9b8-580ec9d4fad9",
+          "date": "Unknown",
+          "quote": "This was the gold standard for the better part of a decade but as with all things Google it's been getting worse and worse the last few years, especially as they try to shoehorn more AI into it. Searc...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for event but the system returned irrelevant photos.",
+          "outcome": "PARTIAL_SUCCESS"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=0bd9a370-69cc-4837-ac58-07e50f5b694f",
+          "date": "Unknown",
+          "quote": "Update: Google my Creepy Voyeristic neightbor. I used to tollerate this app, my fiance and I have disabled all AI suggestions and asked google not to look through our photos and suggest AI slop. But n...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for event but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=2ba338a4-2a94-4e34-90d6-aeb11006d3e2",
+          "date": "Unknown",
+          "quote": "4kg the same as the one who has been sent to the one that I am the only one that I have to the same to you too dear the one who is the same to you too dear the same to the same person who is the one w...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for event but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        }
+      ]
+    },
+    {
+      "cluster_name": "Context-Based Retrieval",
+      "description": "Issues related to Context-Based Retrieval",
+      "record_count": 18,
+      "percentage_of_relevant": 8.5,
+      "observed_failure_count": 14,
+      "known_outcome_count": 18,
+      "retrieval_failure_rate": 77.8,
+      "total_search_attempts": 48,
+      "workarounds_used": 9,
+      "source_distribution": {
+        "Google Play": 18
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=942c4795-6c73-47ba-8de5-df1a59160977",
+          "date": "Unknown",
+          "quote": "Whoever designed this was linguistically challenged. Stop using so many synonyms. Images, photos, pictures, is all the SAME thing!!! If there's a way to be ignorant, people will find it. You star a ph...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for context but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=1fdb3c7f-7ee9-47a5-b5d8-1c3ed77636c1",
+          "date": "Unknown",
+          "quote": "At this stage I can not just go to my photos, I must wait for memory to be to see my photos or to get to a specific person. Not happy!!!!!!!...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for context but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=7a0531cb-1278-4c51-82d1-3aaaffad3f48",
+          "date": "Unknown",
+          "quote": "Google Photos is a very useful and easy-to-use app for storing, organizing and viewing photos and videos. The backup feature is really helpful, and the search and editing tools make managing photos mu...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for context but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f2458ffd-ab02-45ad-9316-ee66677d885d",
+          "date": "Unknown",
+          "quote": "I would suggest a feature that can find all stacked photos so that space can easily be created by deleting unwanted pics....",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for context but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b89003f7-dfec-4d17-86b6-83df885e22d1",
+          "date": "Unknown",
+          "quote": "AVOID USING AT ALL COST!!! FIND A DIFFERENT PROGRAM AT ALL COST!! they have removed the ability to create albums on your own phone. they store somewhere else, and it tricks you into thinking they are ...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for context but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        }
+      ]
+    },
+    {
+      "cluster_name": "Multi-Cue Retrieval",
+      "description": "Issues related to Multi-Cue Retrieval",
+      "record_count": 16,
+      "percentage_of_relevant": 7.6,
+      "observed_failure_count": 14,
+      "known_outcome_count": 16,
+      "retrieval_failure_rate": 87.5,
+      "total_search_attempts": 50,
+      "workarounds_used": 10,
+      "source_distribution": {
+        "Google Play": 16
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=3be20948-45e3-439e-9caf-a362d5fd776b",
+          "date": "Unknown",
+          "quote": "face group doesn't work on my old android. I can't access the settings to turn it off. Deleting....",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for multi but the system returned irrelevant photos.",
+          "outcome": "PARTIAL_SUCCESS"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=56b98d58-f989-4991-bfeb-3e25738a4b89",
+          "date": "Unknown",
+          "quote": "Hate the update, no longer able to search without using Gemini, which I also hate. Have disabled Gemini, because I couldn't search anything, without it popping up several times, even though I had alre...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for multi but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=4f943bb3-c75b-49b7-bba7-17760bd2e62c",
+          "date": "Unknown",
+          "quote": "App has removed photos without permission and now blocks image searches. I have yet to find a way to turn the Al off between this app and Google search....",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for multi but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=a34a5808-0ec3-4f88-918f-35646966e26d",
+          "date": "Unknown",
+          "quote": "Update. I can separate by date again!!! Thank you Google photos!! As of 23Jul2026, this was a 5 star app, at least until the latest update. Why are the photos no longer separated by date? They are now...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for multi but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=c1bbd8b4-fc02-4eeb-a092-73840b52bceb",
+          "date": "Unknown",
+          "quote": "I'm disappointed with the location tagging feature. It doesn't allow me to enter and save the accurate location of the images (and videos) even, with coordinates of the desired location. \ud83d\ude41\ud83e\udee4\ud83d\ude12...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for multi but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        }
+      ]
+    },
+    {
+      "cluster_name": "Place-Based Retrieval",
+      "description": "Issues related to Place-Based Retrieval",
+      "record_count": 25,
+      "percentage_of_relevant": 11.8,
+      "observed_failure_count": 17,
+      "known_outcome_count": 25,
+      "retrieval_failure_rate": 68.0,
+      "total_search_attempts": 94,
+      "workarounds_used": 14,
+      "source_distribution": {
+        "Google Play": 25
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=bca7400a-31e6-4b5d-84f0-e16c586a58cd",
+          "date": "Unknown",
+          "quote": "Nice to chat with U a good Gentle one.ThankU Mr./Mrs. pl let me know the exact location of Ur. repairing outleta place to be mentioned a known ( any thing )femous nearby....",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for place but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=8f47ea6d-59d2-4c1d-b2e3-90c8bb14978d",
+          "date": "Unknown",
+          "quote": "good \ud83d\udc4d edit : I can't find the photo to video thing and I really liked it so If you can add it back I will definitely put more stars but for now only 2. edit: ok this is sooo much better...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for place but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=d2b35a60-2fa9-4a14-b2cf-910e51252800",
+          "date": "Unknown",
+          "quote": "some time ago face detection became really horrid - from a great and useful feature it started grouping all babies or all bold men to one person... and if you try to remove them, there's always an err...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for place but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=16de0ab1-a51d-4bf7-9781-09f44a4b37d1",
+          "date": "Unknown",
+          "quote": "As a photo storage app, it's fine. However if you want it for the editing element then I would look elsewhere. i rarely find it works effectively, such as removing unwanted items in a picture, which i...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for place but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=8cd47a60-2e99-4ec9-b1ca-f89be9835135",
+          "date": "Unknown",
+          "quote": "I have issues uploading pics to an app, if I edit the image at all (for example, I'll take a pic and my phone likes to rotate it the wrong way) I'll rotate the image upright, but if I do that, it wont...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for place but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        }
+      ]
+    },
+    {
+      "cluster_name": "Screenshot / Document Retrieval",
+      "description": "Issues related to Screenshot / Document Retrieval",
+      "record_count": 22,
+      "percentage_of_relevant": 10.4,
+      "observed_failure_count": 18,
+      "known_outcome_count": 22,
+      "retrieval_failure_rate": 81.8,
+      "total_search_attempts": 72,
+      "workarounds_used": 6,
+      "source_distribution": {
+        "Google Play": 22
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=c5b0e510-540c-4627-b36f-232e9a309a17",
+          "date": "Unknown",
+          "quote": "Serves as a top-tier digital archive and secondary media backup solution.Its facial recognition,contextual search and automated cloud sync options simplify photo management,making image retrieval effo...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for screenshot / document retrieval but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b0b5c01b-0078-4d6b-83fd-9b1a38ac5057",
+          "date": "Unknown",
+          "quote": "Google Photos helps me find my photos of everything I've taken a picture of like my favorite main characters, wonderful places and more. \ud83d\udc4d\u2764\ufe0f\ud83d\udc9b\ud83d\udc99...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for screenshot / document retrieval but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=62c67eee-bad9-4a88-908f-599807bdfceb",
+          "date": "Unknown",
+          "quote": "even after backed up photos there are no chance to found same face person after search the name of person\ud83e\udd74\ud83d\ude11...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for screenshot / document retrieval but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=5c778457-90fd-49a5-aad2-771baa1467ff",
+          "date": "Unknown",
+          "quote": "Please bring back the face tracking/auto-zoom feature in Google Photos! On my Pixel 6, I could select a subject\u2019s face in a video, and Google Photos would automatically zoom in and follow the face thr...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for screenshot / document retrieval but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=54c9ce9a-14d3-4bb2-81d0-cbf572a7d0af",
+          "date": "Unknown",
+          "quote": "terrible, totally user unfriendly and useless. l can't find what l need, it keeps pictures l don't want anymore, can't even disable it's permissions....",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for screenshot / document retrieval but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        }
+      ]
+    },
+    {
+      "cluster_name": "Object-Based Retrieval",
+      "description": "Issues related to Object-Based Retrieval",
+      "record_count": 19,
+      "percentage_of_relevant": 9.0,
+      "observed_failure_count": 12,
+      "known_outcome_count": 19,
+      "retrieval_failure_rate": 63.2,
+      "total_search_attempts": 60,
+      "workarounds_used": 8,
+      "source_distribution": {
+        "Google Play": 19
+      },
+      "representative_records": [
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=5915348f-249b-45c7-9ef6-697a4952fd6c",
+          "date": "Unknown",
+          "quote": "Multiple select to share photos broken - only sends some photos now. Face detection broken since October 2025. Trouble loading shots bug - can't work with motion photos Faces aren't being tagged relia...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for object but the system returned irrelevant photos.",
+          "outcome": "ABANDONED"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=bd953071-c12e-49d1-9d15-53bd2978a137",
+          "date": "Unknown",
+          "quote": "Great editing features. It would be improved hugely if the facial organisation allowed efficient manual rearrangement. Removing faces takes a really long time as well as not being able to delete categ...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for object but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=fccaf9c6-5291-4acc-aaa7-725d0cca8cbe",
+          "date": "Unknown",
+          "quote": "It's helpful but I face inconvenient while traveling specially in weak internet connection areas....",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for object but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=d21f53fa-34d2-4974-9a7e-06d1dced6b7e",
+          "date": "Unknown",
+          "quote": "I'm so sick of this stupid app. it doesn't want to save anything you've done and if you uninstall and reinstall the app it takes forever to find all your pictures again I'm so sick of Google and there...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for object but the system returned irrelevant photos.",
+          "outcome": "SUCCESS"
+        },
+        {
+          "source": "Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=e3bc1db6-4d55-4bf6-8763-f480c7e16c7a",
+          "date": "Unknown",
+          "quote": "the app is actually good. you can do a lot of things to edit photos or videos, the search bar and the app automatically selects photos of different people and store in one place. my problem is the nee...",
+          "hypothesis": "Hypothesis: The system may not effectively combine multiple weak contextual cues.",
+          "observation": "User searched for object but the system returned irrelevant photos.",
+          "outcome": "FAILURE"
+        }
+      ]
+    }
+  ],
+  "gap_flows": [
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    },
+    {
+      "source": "mock remember event/place",
+      "target1": "mock forgot date/location",
+      "target2": "mock search keyword",
+      "outcome": "FAILURE"
+    }
+  ]
+}

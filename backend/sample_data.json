@@ -1,0 +1,122 @@
+[
+  {
+    "record_id": "r001",
+    "source": "Reddit",
+    "source_url": "https://reddit.com/r/googlephotos/1",
+    "author_id": "u_anon_1",
+    "date": "2023-10-15",
+    "rating": null,
+    "title": "Can't find photo from Goa",
+    "text": "I clearly remember taking a picture of this small cafe we went to during our Goa trip last December. I've tried searching 'Goa cafe', 'coffee', and even scrolled through the whole month of December, but nothing shows up. It's so frustrating because I know it's there but I can't remember the exact date or the name of the place.",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r002",
+    "source": "Google Play",
+    "source_url": "https://play.google.com/review/2",
+    "author_id": "user_7482",
+    "date": "2023-11-02",
+    "rating": 2,
+    "title": "Search is broken",
+    "text": "I tried to find the picture of the medicine I took when I was sick last year. I searched 'medicine' and 'pills' but it only shows random screenshots. I don't remember the exact month. I wish I could just search 'when I had a fever'. Gave up after 10 minutes of scrolling.",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r003",
+    "source": "Apple App Store",
+    "source_url": "https://apps.apple.com/review/3",
+    "author_id": "apple_fan_99",
+    "date": "2024-01-20",
+    "rating": 4,
+    "title": "Good but hard to find old docs",
+    "text": "Overall great app, but searching for screenshots is a nightmare. I needed a screenshot with my flight details from last summer. I searched 'flight' and it showed airplanes, not my ticket. Had to manually look through the screenshots folder.",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r004",
+    "source": "Google Support",
+    "source_url": "https://support.google.com/photos/4",
+    "author_id": "support_user",
+    "date": "2023-08-11",
+    "rating": null,
+    "title": "How to find photos with a specific person?",
+    "text": "I'm looking for a photo from my friend's wedding where we were all together (me, Rahul, and Priya). I searched 'wedding' and found some, but not the specific group shot. I don't know the exact date. Searching 'Rahul Priya' doesn't seem to work well if they aren't tagged perfectly.",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r005",
+    "source": "Reddit",
+    "source_url": "https://reddit.com/r/googlephotos/5",
+    "author_id": "u_lost_memories",
+    "date": "2024-02-14",
+    "rating": null,
+    "title": "Searching by clothing?",
+    "text": "Does anyone know how to find a picture based on what you were wearing? I'm looking for the picture where I was wearing the blue dress at a party. I searched 'blue dress' but it's pulling up sky photos and blue cars. Ended up finding it by manually scrolling for 20 mins.",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r006",
+    "source": "Google Play",
+    "source_url": "https://play.google.com/review/6",
+    "author_id": "user_1122",
+    "date": "2023-12-05",
+    "rating": 1,
+    "title": "App keeps crashing",
+    "text": "The app crashes every time I try to backup my videos. Totally useless. Fix this Google!",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r007",
+    "source": "Reddit",
+    "source_url": "https://reddit.com/r/googlephotos/7",
+    "author_id": "u_sequential_search",
+    "date": "2023-09-30",
+    "rating": null,
+    "title": "Finding a photo based on another one",
+    "text": "I remember taking some pictures right before we went to the beach on our trip. I can easily find the beach photos by searching 'beach', but I want the photos from the hotel room right before that. Is there a way to say 'show me photos taken right before this one' without knowing the date?",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r008",
+    "source": "Twitter",
+    "source_url": "https://twitter.com/user/8",
+    "author_id": "tweet_user",
+    "date": "2024-03-01",
+    "rating": null,
+    "title": "Passport struggle",
+    "text": "Spent 30 mins trying to find the photo of my passport in Google Photos. Searched 'passport' and got nothing. Turns out the OCR didn't read it properly because of a glare. Had to search by the approximate year and scroll. So annoying.",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r009",
+    "source": "Google Play",
+    "source_url": "https://play.google.com/review/9",
+    "author_id": "user_5555",
+    "date": "2024-01-10",
+    "rating": 5,
+    "title": "Love the memories feature",
+    "text": "The new memories feature is so good! It brought up pictures of my dog from 5 years ago that I completely forgot about. Best app ever.",
+    "language": "en",
+    "metadata": {}
+  },
+  {
+    "record_id": "r010",
+    "source": "Reddit",
+    "source_url": "https://reddit.com/r/googlephotos/10",
+    "author_id": "u_multi_cue",
+    "date": "2023-07-22",
+    "rating": null,
+    "title": "Complex searches fail",
+    "text": "I was trying to find that picture with Rahul from our Goa trip around Christmas a few years back. If I search 'Rahul Goa', I get thousands of pics. If I add 'Christmas', I get zero. Why can't it handle combining multiple vague memories? I ended up just asking Rahul to send it to me.",
+    "language": "en",
+    "metadata": {}
+  }
+]

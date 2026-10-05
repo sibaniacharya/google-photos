@@ -1,0 +1,19 @@
+[
+  {
+    "record_id": "fd8a8056",
+    "source": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=7f1adf10-627a-4212-9e0a-5c9b69d73e2f",
+    "review_date": "2026-07-24T15:21:06",
+    "rating": 1,
+    "review_text": "this is very disappointing.. while trying to find some old pics which already uploaded a long time ago, I can't find them now. very sure I don't delete those because they are very pretty good memories, and look at them in some time intervals. while using the app with a subscription and finding out images are removed on its own is really frustrating. this is not just 1 time I found several time some sections of images been disappeared by its own. now I can't trust Google any more.",
+    "signals_matched": [
+      "can't find",
+      "trying to find",
+      "disappeared",
+      "memories"
+    ],
+    "target_problem_relevant": true,
+    "retrieval_issue_type": "INCOMPLETE_MEMORY_RETRIEVAL",
+    "evidence_quote": "while trying to find some old pics which already uploaded a long time ago, I can't find them now"
+  }
+]

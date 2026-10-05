@@ -1,0 +1,20 @@
+[
+  {
+    "record_id": "f4897c3c",
+    "review_text": "Recent updates have introduced a bunch of bugs that make it really inconvenient to use daily. The grid view has random large or elongated photos making it hard to scan photos and follow their chronological order. The edit tools randomly switch order, making it take longer to find specific tools. Select and drag is completely bugged, making it tedious to select more than one photo. Really disappointing, as this was one of the most polished Google apps but is now buggy and a chore to use.",
+    "source": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b4ad14c0-e53a-4072-b004-cfa49ea2bce4",
+    "review_date": "2026-08-05T09:20:48",
+    "rating": 2,
+    "selection_group": "POTENTIALLY_RELEVANT",
+    "selection_signals": [
+      "update",
+      "find",
+      "photo",
+      "date"
+    ],
+    "target_problem_relevant": false,
+    "retrieval_issue_type": null,
+    "evidence_quote": "grid view has random large or elongated photos"
+  }
+]

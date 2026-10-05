@@ -1,0 +1,5 @@
+pydantic
+pandas
+google-genai
+python-dotenv
+google-play-scraper
