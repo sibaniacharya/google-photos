@@ -25,7 +25,8 @@ export default function App() {
     { label: 'Confirmed Evidence', route: 'confirmed' },
     { label: 'Opportunity', route: 'opportunity' },
     { label: 'Audit', route: 'audit' },
-    { label: 'Methodology', route: 'methodology' }
+    { label: 'Methodology', route: 'methodology' },
+    { label: 'Run Engine', route: 'run-engine' }
   ];
 
   const filterPills = [
@@ -493,12 +494,124 @@ export default function App() {
         {/* METHODOLOGY TAB */}
         {currentRoute === 'methodology' && <MethodologySection />}
 
+        {/* RUN ENGINE TAB */}
+        {currentRoute === 'run-engine' && <RunEngineSection />}
+
       </main>
     </div>
   );
 }
 
 /* HELPER SECTION COMPONENTS */
+
+function RunEngineSection() {
+  const [inputText, setInputText] = useState(`{"record_id": "demo-1", "review_text": "I can't find my old photos"}`);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [result, setResult] = useState(null);
+
+  const handleRunEngine = async () => {
+    try {
+      setLoading(true);
+      setError(null);
+      setResult(null);
+      
+      let records = [];
+      try {
+        const parsed = JSON.parse(inputText);
+        records = Array.isArray(parsed) ? parsed : [parsed];
+      } catch (err) {
+        throw new Error("Invalid JSON input. Please provide a valid JSON array or object.");
+      }
+
+      const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+      const response = await fetch(`${API_BASE}/api/ai/extract`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ records })
+      });
+
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.detail || 'API request failed');
+      }
+
+      setResult(data.extracted);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const checkHealth = async () => {
+    try {
+      const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+      const res = await fetch(`${API_BASE}/health`);
+      if (res.ok) alert("Backend is healthy!");
+      else alert("Backend returned error.");
+    } catch (e) {
+      alert("Failed to connect to backend: " + e.message);
+    }
+  };
+
+  return (
+    <section>
+      <div className="bg-white border border-gray-200 rounded-3xl p-6 md:p-8 shadow-sm">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="material-symbols-outlined text-[#1a73e8] text-[24px]">terminal</span>
+          <span className="text-[11px] font-bold text-gray-800 uppercase tracking-widest">DYNAMIC AI ENGINE TEST</span>
+        </div>
+        
+        <p className="text-[#5f6368] mb-6">
+          This tab dynamically executes the AI Engine deployed on Railway. The dashboard above is powered by the static, audited evidence from Part 1. 
+          Use this to test new candidates.
+        </p>
+
+        <div className="mb-4">
+          <label className="block text-sm font-semibold text-gray-700 mb-2">Input Candidates (JSON array or object):</label>
+          <textarea 
+            className="w-full h-40 p-4 border border-gray-300 rounded-xl font-mono text-sm"
+            value={inputText}
+            onChange={(e) => setInputText(e.target.value)}
+          />
+        </div>
+
+        <div className="flex gap-4 mb-8">
+          <button 
+            onClick={handleRunEngine}
+            disabled={loading}
+            className="px-6 py-2 bg-[#1a73e8] text-white rounded-lg font-medium hover:bg-blue-700 disabled:opacity-50"
+          >
+            {loading ? 'Running AI Engine...' : 'Run Extract'}
+          </button>
+          <button 
+            onClick={checkHealth}
+            className="px-6 py-2 bg-gray-100 text-gray-700 rounded-lg font-medium hover:bg-gray-200"
+          >
+            Check Backend Health
+          </button>
+        </div>
+
+        {error && (
+          <div className="bg-[#fce8e6] text-[#c5221f] p-4 rounded-xl border border-[#fad2cf] mb-6">
+            <h4 className="font-bold text-sm mb-1">Error executing AI Engine</h4>
+            <p className="text-sm">{error}</p>
+          </div>
+        )}
+
+        {result && (
+          <div>
+            <h3 className="text-sm font-semibold text-gray-800 uppercase tracking-wider mb-2">Extraction Results</h3>
+            <pre className="bg-[#f8f9fa] p-4 border border-gray-200 rounded-xl font-mono text-xs overflow-x-auto">
+              {JSON.stringify(result, null, 2)}
+            </pre>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
 
 function OpportunitySection() {
   return (
