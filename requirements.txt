@@ -5,3 +5,5 @@ python-dotenv
 google-play-scraper
 fastapi
 uvicorn
+openai
+groq
