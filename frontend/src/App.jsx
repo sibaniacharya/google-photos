@@ -524,7 +524,8 @@ function RunEngineSection() {
         throw new Error("Invalid JSON input. Please provide a valid JSON array or object.");
       }
 
-      const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+      const rawApiBase = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+      const API_BASE = rawApiBase.replace(/\/$/, '');
       const response = await fetch(`${API_BASE}/api/ai/extract`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -546,7 +547,8 @@ function RunEngineSection() {
 
   const checkHealth = async () => {
     try {
-      const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+      const rawApiBase = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+      const API_BASE = rawApiBase.replace(/\/$/, '');
       const res = await fetch(`${API_BASE}/health`);
       if (res.ok) alert("Backend is healthy!");
       else alert("Backend returned error.");

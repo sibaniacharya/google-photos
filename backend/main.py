@@ -18,7 +18,8 @@ app = FastAPI(title="Google Photos AI Discovery Engine API")
 # Setup CORS
 FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:5173")
 origins = [
-    FRONTEND_URL,
+    url.strip() for url in FRONTEND_URL.split(",") if url.strip()
+] + [
     "http://localhost:5173",
     "http://localhost:3000"
 ]
