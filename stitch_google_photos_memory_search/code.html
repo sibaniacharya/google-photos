@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-secondary-container": "#00722f", "on-tertiary": "#ffffff", "surface-container-lowest": "#ffffff", "on-error": "#ffffff", "surface-variant": "#e0e2eb", "primary-container": "#1a73e8", "on-secondary-fixed-variant": "#005320", "tertiary-container": "#dc392c", "surface": "#f9f9ff", "primary": "#005bbf", "tertiary": "#b81d17", "primary-fixed": "#d8e2ff", "on-tertiary-fixed-variant": "#930004", "outline-variant": "#c1c6d6", "error": "#ba1a1a", "on-primary-fixed-variant": "#004493", "background": "#f9f9ff", "surface-bright": "#f9f9ff", "primary-fixed-dim": "#adc7ff", "secondary-fixed-dim": "#6ddd81", "on-secondary-fixed": "#002108", "surface-dim": "#d7dae3", "on-primary-fixed": "#001a41", "secondary-fixed": "#89fa9b", "outline": "#727785", "secondary": "#006e2c", "on-primary": "#ffffff", "inverse-surface": "#2d3037", "on-tertiary-fixed": "#410001", "error-container": "#ffdad6", "inverse-on-surface": "#eef0fa", "surface-container-low": "#f1f3fc", "inverse-primary": "#adc7ff", "surface-container-highest": "#e0e2eb", "on-surface": "#181c22", "on-secondary": "#ffffff", "surface-tint": "#005bc0", "tertiary-fixed": "#ffdad5", "surface-container-high": "#e6e8f1", "on-tertiary-container": "#ffffff", "secondary-container": "#86f898", "on-error-container": "#93000a", "tertiary-fixed-dim": "#ffb4a9", "surface-container": "#ebedf7", "on-background": "#181c22", "on-primary-container": "#ffffff", "on-surface-variant": "#414754" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.5rem", "space-xs": "0.25rem", "space-xl": "2rem", "gutter-loose": "0.75rem", "gutter": "0.125rem", "margin": "1rem", "space-lg": "1.5rem", "space-md": "1rem" }, fontFamily: { "label-lg": ["Roboto Flex"], "headline-sm": ["Roboto Flex"], "label-md": ["Roboto Flex"], "body-lg": ["Roboto Flex"], "body-md": ["Roboto Flex"], "body-sm": ["Roboto Flex"], "headline-lg": ["Roboto Flex"], "label-sm": ["Roboto Flex"], "display-lg": ["Roboto Flex"], "headline-md": ["Roboto Flex"] }, fontSize: { "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "500" }], "label-md": ["12px", { "lineHeight": "16px", "fontWeight": "500" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-lg": ["28px", { "lineHeight": "36px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "16px", "fontWeight": "500" }], "display-lg": ["36px", { "lineHeight": "44px", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "28px", "fontWeight": "500" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen flex flex-col antialiased selection:bg-primary-fixed"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm shrink-0"><img alt="Google Photos Pinwheel Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WtueSpti7PNyMkZN-3duRibd0PM7qsW0Xqdif7N_S-cbDIjd0M_JxkYvf1g8irE0E1jT7apkGAJKyXSBLPVUtfV13H4bPJ5TDBwQ7_cFPBY07bxnVdOg84BbYPKxyYcqAL5_v5NA31pUtP7laeu9LC8HYH_1U6JeuJ_iKUVDVq9w5x-NRAbwH9u36hQs92vKeFhEC1HS8KGiezdCm9V5uGlcj3nGgtyMQw0Tzh7hFD-lhxGWwjGEoGZ6U"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight hidden xs:inline">Photos</span></div><div class="flex-1 max-w-md mx-space-xs"><div class="h-11 px-space-md rounded-full bg-surface-container-high flex items-center gap-space-sm"><span class="material-symbols-outlined text-outline shrink-0">search</span><span class="font-body-md text-body-md text-outline truncate select-none">Search your memories...</span></div></div><div class="flex items-center gap-space-xs shrink-0"><span class="font-label-md text-label-md text-on-surface-variant hidden">Search</span><button aria-label="Account" class="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full hover:bg-surface-container transition-colors shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKNkB9Nplzz2tdL2p5zszTPIkHzoe3d4yQCC2FxaCBN-fZ2Oe0d0P9tw9HGzO18UVdHiQD6ntDSEfH9I07Q78499evdiXWGwwqNBpXrG3LaTsj00nQSbcwYIJ_vJGtLPEIPq1iQ9ZlnqV6fNSSZK_X9NLAN8xim3OpFLRbyzHvWLgODoHWntAZJzUuM_0j4m8YY7AQVKx0AEOyr0sl6ZK4_mQkbh9AUA1z01-oi_1dXc5stJC-T-hI"/></button></div></div></header><main class="flex-1 w-full bg-surface pt-20 pb-24"><div class="flex flex-col w-full pb-8">
+<!-- Interactive Notification Toast -->
+<div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 pointer-events-none opacity-0 translate-y-[-8px]" id="statusToast">
+<div class="bg-inverse-surface text-inverse-on-surface px-space-md py-space-sm rounded-full shadow-lg flex items-center gap-space-xs font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary-fixed text-base">check_circle</span>
+<span id="toastMsg">Search cues adjusted</span>
+</div>
+</div>
+<!-- Search Header & Natural Query Container -->
+<div class="px-margin pt-space-xs">
+<div class="relative bg-surface-container-lowest rounded-full shadow-[0px_2px_8px_rgba(60,64,67,0.12),0px_1px_3px_rgba(60,64,67,0.18)] p-1.5 flex items-center gap-2">
+<!-- Gemini Sparkle Icon Pill -->
+<div class="w-10 h-10 rounded-full bg-primary-fixed/50 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[22px]" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+<!-- Natural Query Editable Text -->
+<div class="flex-1 min-w-0 pr-1">
+<p class="font-label-sm text-label-sm text-primary tracking-wide uppercase font-semibold flex items-center gap-1">
+<span>Ask Photos</span>
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+</p>
+<p class="font-body-md text-body-md text-on-surface truncate font-normal" title="That trip where we rented a yellow convertible or something and ate seafood pasta by the sea around sunset with Maya and Leo">
+          “That trip where we rented a yellow convertible...”
+        </p>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-0.5 shrink-0 pr-1">
+<button aria-label="Edit memory query" class="w-9 h-9 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant transition-colors" id="editQueryBtn">
+<span class="material-symbols-outlined text-[20px]">edit</span>
+</button>
+<button aria-label="Voice input" class="w-9 h-9 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant transition-colors" id="micBtn">
+<span class="material-symbols-outlined text-[20px]">mic</span>
+</button>
+</div>
+</div>
+</div>
+<!-- AI Deconstruction: Extracted Memory Cues -->
+<div class="px-margin mt-space-md">
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">psychology</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Identified memory cues</h2>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Tap tag to refine</span>
+</div>
+<!-- Cues Flow Layout -->
+<div class="flex flex-wrap gap-1.5" id="cuesContainer">
+<!-- Cue 1: Place -->
+<button class="cue-pill group inline-flex items-center gap-1.5 h-8 pl-2.5 pr-2 rounded-full bg-surface-container-lowest text-on-surface shadow-xs transition-all active:scale-95" data-cue="place">
+<span class="material-symbols-outlined text-primary text-[16px]">location_on</span>
+<span class="font-label-md text-label-md">Coastal / Mediterranean</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="material-symbols-outlined text-outline group-hover:text-error text-[15px] ml-0.5">close</span>
+</button>
+<!-- Cue 2: Subject (Fuzzy) -->
+<button class="cue-pill group inline-flex items-center gap-1.5 h-8 pl-2.5 pr-2 rounded-full bg-primary-fixed/40 text-on-primary-fixed-variant shadow-xs transition-all active:scale-95" data-cue="vehicle">
+<span class="material-symbols-outlined text-primary text-[16px]">directions_car</span>
+<span class="font-label-md text-label-md font-medium">Yellow vintage car</span>
+<span class="font-label-sm text-label-sm text-primary bg-surface-container-lowest px-1.5 py-0.2 rounded-full">Fuzzy</span>
+<span class="material-symbols-outlined text-outline group-hover:text-error text-[15px] ml-0.5">close</span>
+</button>
+<!-- Cue 3: Activity -->
+<button class="cue-pill group inline-flex items-center gap-1.5 h-8 pl-2.5 pr-2 rounded-full bg-surface-container-lowest text-on-surface shadow-xs transition-all active:scale-95" data-cue="food">
+<span class="material-symbols-outlined text-tertiary text-[16px]">restaurant</span>
+<span class="font-label-md text-label-md">Seafood dinner / pasta</span>
+<span class="material-symbols-outlined text-outline group-hover:text-error text-[15px] ml-0.5">close</span>
+</button>
+<!-- Cue 4: People -->
+<button class="cue-pill group inline-flex items-center gap-1.5 h-8 pl-2.5 pr-2 rounded-full bg-surface-container-lowest text-on-surface shadow-xs transition-all active:scale-95" data-cue="people">
+<span class="material-symbols-outlined text-secondary text-[16px]">face</span>
+<span class="font-label-md text-label-md">Maya &amp; Leo</span>
+<span class="material-symbols-outlined text-secondary text-[14px]">check</span>
+<span class="material-symbols-outlined text-outline group-hover:text-error text-[15px] ml-0.5">close</span>
+</button>
+<!-- Cue 5: Time -->
+<button class="cue-pill group inline-flex items-center gap-1.5 h-8 pl-2.5 pr-2 rounded-full bg-surface-container-lowest text-on-surface shadow-xs transition-all active:scale-95" data-cue="time">
+<span class="material-symbols-outlined text-outline text-[16px]">wb_twilight</span>
+<span class="font-label-md text-label-md">Golden hour / Sunset</span>
+<span class="material-symbols-outlined text-outline group-hover:text-error text-[15px] ml-0.5">close</span>
+</button>
+<!-- Add Cue button -->
+<button class="inline-flex items-center gap-1 h-8 px-2.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-variant transition-colors" id="addCueTrigger">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span class="font-label-md text-label-md">Add clue</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Candidates Header -->
+<div class="px-margin mt-space-lg flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Best matches from library</h3>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface-variant">3 found</span>
+</div>
+<div class="flex items-center gap-1">
+<button class="p-1 rounded-full text-on-surface-variant hover:bg-surface-container transition-colors" title="View options">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</div>
+</div>
+<!-- Candidate Photos Stack -->
+<div class="px-margin mt-space-sm space-y-space-md" id="cardsStack">
+<!-- MATCH 1: 98% Match (Hero Candidate) -->
+<article class="candidate-card bg-surface-container-lowest rounded-xl shadow-[0px_4px_16px_rgba(0,0,0,0.06)] overflow-hidden transition-all duration-200" data-card-id="card1">
+<!-- Media Frame with Overlays -->
+<div class="relative w-full aspect-[4/3] bg-surface-container">
+<img alt="Friends laughing around a sunset seafood dinner on an Amalfi Coast terrace" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVj7XQzaMcb5gNYTRCgj5hyOzIfkXjM-h4yX6CRwsfY3bDzQzqj2Davz5pQO6XDiTi_aOa2TSYGCXlX3y8Gt2m7FBLME2niASG-mXS39EgeeYoQQU8izxD__3d6StVdorYshfR-1vHtw8Yug16F9CkpiRYFg_mGQDH5agXYC6Ge7QQAArnGHKwNAunT6I63jz5edHEGn3qNUfjmyr8c7kat5n0jWQalXRjddjfuFRpf_04buGnwzwt"/>
+<!-- Top Gradient Floating Badges -->
+<div class="absolute inset-x-0 top-0 p-space-sm flex items-center justify-between pointer-events-none">
+<div class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-primary text-on-primary shadow-sm pointer-events-auto">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-semibold tracking-wide">98% Match</span>
+</div>
+<button class="like-btn w-9 h-9 rounded-full bg-inverse-surface/60 backdrop-blur-md text-surface-container-lowest flex items-center justify-center pointer-events-auto active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+</div>
+<!-- Bottom Image Scrim with Location & Date -->
+<div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/40 to-transparent p-space-md pt-8 text-inverse-on-surface flex items-end justify-between">
+<div>
+<p class="font-label-sm text-label-sm text-inverse-on-surface/80">Amalfi Coast, Italy</p>
+<h4 class="font-headline-sm text-headline-sm font-medium text-surface-container-lowest leading-snug">Aug 14, 2023 • 7:42 PM</h4>
+</div>
+<span class="material-symbols-outlined text-inverse-on-surface/90 text-[20px]">verified</span>
+</div>
+</div>
+<!-- Match Explanation and Context Panel -->
+<div class="p-space-md">
+<div class="flex items-start gap-2 bg-primary-fixed/30 rounded-lg p-2.5 mb-space-md">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong class="font-medium text-primary">Why this matches:</strong> Seafood pasta dinner on seaside terrace, golden hour lighting, with <strong class="font-medium">Maya &amp; Leo</strong> recognized.
+          </p>
+</div>
+<!-- Primary & Secondary Interactive Action Row -->
+<div class="flex items-center gap-space-sm pt-0.5">
+<button class="open-match-btn flex-1 h-11 px-space-md rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-medium flex items-center justify-center gap-2 shadow-sm hover:shadow active:scale-[0.98] transition-all">
+<span class="material-symbols-outlined text-[18px]">photo</span>
+<span>This is it! Open photo</span>
+</button>
+<button class="reject-btn h-11 w-11 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant flex items-center justify-center shrink-0 transition-colors" title="Not the right memory">
+<span class="material-symbols-outlined text-[20px]">thumb_down</span>
+</button>
+<button class="h-11 w-11 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant flex items-center justify-center shrink-0 transition-colors" title="Share memory">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+</div>
+</div>
+</article>
+<!-- MATCH 2: 89% Match (The Yellow Car) -->
+<article class="candidate-card bg-surface-container-lowest rounded-xl shadow-[0px_2px_8px_rgba(0,0,0,0.05)] overflow-hidden transition-all duration-200" data-card-id="card2">
+<!-- Media Frame -->
+<div class="relative w-full aspect-[4/3] bg-surface-container">
+<img alt="Vintage yellow Fiat on cliffside highway overlooking sparkling Mediterranean coast" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDteHX-alhOC1P2LO3n_i3Kv4hYRzmTi4c26VSrOG_t4CIPuxi3evNtfaBbM57dpzTGCLBH24AqNjNS6Aceykk2IIb21dYJix0SBxdC4eaFCweuRW5GatdP-5hfxhW7NKQlPfY5Pl8uQQAuiJAaFjCeqpnJ8Bp4IMe_GsX3AiQiLdbtC90K5O78JGSFjhGxoIpZm6DamPreOfKwPvuE4v7I0rQPla4bkEVXZrctJ2_ODH03UlI0C3EQ"/>
+<div class="absolute inset-x-0 top-0 p-space-sm flex items-center justify-between pointer-events-none">
+<div class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-on-surface shadow-xs pointer-events-auto">
+<span class="material-symbols-outlined text-secondary text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-label-md text-label-md font-medium">89% Match</span>
+</div>
+<button class="like-btn w-9 h-9 rounded-full bg-inverse-surface/60 backdrop-blur-md text-surface-container-lowest flex items-center justify-center pointer-events-auto active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+</div>
+<div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/30 to-transparent p-space-md pt-8 text-inverse-on-surface flex items-end justify-between">
+<div>
+<p class="font-label-sm text-label-sm text-inverse-on-surface/80">Amalfi Drive, Italy</p>
+<h4 class="font-headline-sm text-headline-sm font-medium text-surface-container-lowest leading-snug">Aug 13, 2023 • 3:15 PM</h4>
+</div>
+</div>
+</div>
+<!-- Explanation & Actions -->
+<div class="p-space-md">
+<div class="flex items-start gap-2 bg-surface-container-low rounded-lg p-2.5 mb-space-md">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0 mt-0.5">auto_awesome</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+<strong class="font-medium text-on-surface">Matches “Yellow convertible”:</strong> Identified classic yellow Fiat 500 parked alongside scenic Mediterranean coastal route.
+          </p>
+</div>
+<div class="flex items-center justify-between gap-space-sm">
+<button class="open-match-btn flex-1 h-10 px-space-md rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md font-medium flex items-center justify-center gap-2 transition-colors">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>View photo</span>
+</button>
+<button class="reject-btn h-10 px-space-md rounded-full text-on-surface-variant hover:bg-surface-container font-label-md text-label-md transition-colors">
+            Not quite
+          </button>
+</div>
+</div>
+</article>
+<!-- MATCH 3: 81% Match (Positano Terrace Drinks) -->
+<article class="candidate-card bg-surface-container-lowest rounded-xl shadow-[0px_2px_8px_rgba(0,0,0,0.05)] overflow-hidden transition-all duration-200" data-card-id="card3">
+<!-- Media Frame -->
+<div class="relative w-full aspect-[4/3] bg-surface-container">
+<img alt="Outdoor seaside terrace cafe with friends drinking cocktails at sunset" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTwIKuM8PlmaEDwt837RtjX_2jixec8kZjLOZOxWLtFSbvEV6qe89us1XvHRK4BMf5RXSyTDsobdM9c3uyCL5ITWf4usZfmskzr-MjqnYU7ApMuorVKnLzrDo8sACsbsuq0GFyg2BthanyuD_TBNX8_wl0Rl7M2woOqTPM6hK0so1lcXKfanpIfRD5P0Zmx1dFBUA61DR74PCsuQm0jioR5oBRTju_vfhFpsvun7lzEsZCq9LaZ55x"/>
+<div class="absolute inset-x-0 top-0 p-space-sm flex items-center justify-between pointer-events-none">
+<div class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-on-surface shadow-xs pointer-events-auto">
+<span class="material-symbols-outlined text-outline text-[16px]">search_check</span>
+<span class="font-label-md text-label-md font-medium">81% Match</span>
+</div>
+<button class="like-btn w-9 h-9 rounded-full bg-inverse-surface/60 backdrop-blur-md text-surface-container-lowest flex items-center justify-center pointer-events-auto active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+</div>
+<div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/30 to-transparent p-space-md pt-8 text-inverse-on-surface flex items-end justify-between">
+<div>
+<p class="font-label-sm text-label-sm text-inverse-on-surface/80">Positano, Italy</p>
+<h4 class="font-headline-sm text-headline-sm font-medium text-surface-container-lowest leading-snug">Aug 15, 2023 • 6:30 PM</h4>
+</div>
+</div>
+</div>
+<!-- Explanation & Actions -->
+<div class="p-space-md">
+<div class="flex items-start gap-2 bg-surface-container-low rounded-lg p-2.5 mb-space-md">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0 mt-0.5">auto_awesome</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+<strong class="font-medium text-on-surface">Matches seaside &amp; sunset:</strong> Cafe du Soleil cliffside terrace with Maya, colorful umbrellas, and evening ocean view.
+          </p>
+</div>
+<div class="flex items-center justify-between gap-space-sm">
+<button class="open-match-btn flex-1 h-10 px-space-md rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md font-medium flex items-center justify-center gap-2 transition-colors">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>View photo</span>
+</button>
+<button class="reject-btn h-10 px-space-md rounded-full text-on-surface-variant hover:bg-surface-container font-label-md text-label-md transition-colors">
+            Not quite
+          </button>
+</div>
+</div>
+</article>
+</div>
+<!-- Rejection & "Refine Search" Bottom Drawer Card -->
+<div class="px-margin mt-space-xl">
+<div class="bg-surface-container-low rounded-xl p-space-md">
+<!-- Section Header -->
+<div class="flex items-center gap-space-sm mb-space-sm">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">None of these match?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Guide Google Photos to recall the right memory</p>
+</div>
+</div>
+<!-- Guided Cue Questions -->
+<div class="space-y-space-md mt-space-md">
+<!-- Question 1: Who else -->
+<div>
+<label class="block font-label-md text-label-md text-outline mb-1.5">Was anyone else there?</label>
+<div class="flex flex-wrap gap-1.5">
+<button class="refine-chip px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1 active:bg-primary-fixed hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline">add</span>
+<span>Add person</span>
+</button>
+<button class="refine-chip px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1 active:bg-primary-fixed hover:bg-surface-container transition-colors">
+<span>Just Maya &amp; Leo</span>
+</button>
+<button class="refine-chip px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1 active:bg-primary-fixed hover:bg-surface-container transition-colors">
+<span>Solo trip</span>
+</button>
+</div>
+</div>
+<!-- Question 2: Year -->
+<div>
+<label class="block font-label-md text-label-md text-outline mb-1.5">Approximate year or trip?</label>
+<div class="flex flex-wrap gap-1.5">
+<button class="refine-chip px-3 py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check</span>
+<span>Summer 2023</span>
+</button>
+<button class="refine-chip px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container transition-colors">
+<span>Summer 2022</span>
+</button>
+<button class="refine-chip px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container transition-colors">
+<span>Older (2018–2021)</span>
+</button>
+</div>
+</div>
+<!-- Question 3: Camera / Source -->
+<div>
+<label class="block font-label-md text-label-md text-outline mb-1.5">Captured with</label>
+<div class="flex flex-wrap gap-1.5">
+<button class="refine-chip px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline">photo_camera</span>
+<span>Pixel / Phone</span>
+</button>
+<button class="refine-chip px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline">camera</span>
+<span>Film / DSLR</span>
+</button>
+<button class="refine-chip px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline">forum</span>
+<span>Saved from WhatsApp</span>
+</button>
+</div>
+</div>
+<!-- Specific detail quick input -->
+<div class="pt-space-xs">
+<div class="h-10 bg-surface-container-lowest rounded-full px-3.5 flex items-center gap-2 shadow-xs">
+<span class="material-symbols-outlined text-outline text-[18px]">add_circle</span>
+<input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none" id="refineInput" placeholder="Add another detail (e.g. 'We had gelato after')..." type="text"/>
+<button class="text-primary hover:text-primary-container p-1 rounded-full transition-colors" id="sendRefineBtn" title="Apply filter">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- End of Search Context Marker -->
+<div class="mt-space-lg text-center px-margin">
+<div class="inline-flex items-center gap-1.5 text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+<span>Searched across 14,820 private photos in your Google Photos library</span>
+</div>
+</div>
+</div>
+<script>
+(function() {
+  const toast = document.getElementById('statusToast');
+  const toastMsg = document.getElementById('toastMsg');
+  let toastTimer;
+
+  function showToast(message) {
+    if (!toast || !toastMsg) return;
+    toastMsg.textContent = message;
+    toast.classList.remove('opacity-0', 'translate-y-[-8px]');
+    toast.classList.add('opacity-100', 'translate-y-0');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      toast.classList.remove('opacity-100', 'translate-y-0');
+      toast.classList.add('opacity-0', 'translate-y-[-8px]');
+    }, 2400);
+  }
+
+  // Remove Cue Pill Micro-interaction
+  const cuePills = document.querySelectorAll('.cue-pill');
+  cuePills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const cueName = pill.querySelector('.font-label-md')?.textContent?.trim() || 'Cue';
+      pill.style.transform = 'scale(0.8)';
+      pill.style.opacity = '0';
+      setTimeout(() => {
+        pill.remove();
+        showToast('Removed cue: "' + cueName + '" • Updating results...');
+      }, 180);
+    });
+  });
+
+  // Favorite toggle
+  const likeBtns = document.querySelectorAll('.like-btn');
+  likeBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const icon = btn.querySelector('.material-symbols-outlined');
+      if (icon) {
+        const isFav = icon.textContent === 'favorite';
+        icon.textContent = isFav ? 'favorite_border' : 'favorite';
+        icon.style.color = isFav ? '' : '#ba1a1a';
+        btn.classList.toggle('text-error', !isFav);
+        showToast(isFav ? 'Removed from favorites' : 'Added to favorites');
+      }
+    });
+  });
+
+  // Reject candidate card
+  const rejectBtns = document.querySelectorAll('.reject-btn');
+  rejectBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const card = btn.closest('.candidate-card');
+      if (card) {
+        card.style.transition = 'all 0.3s ease-out';
+        card.style.opacity = '0.35';
+        card.style.transform = 'scale(0.96)';
+        showToast('Feedback noted: AI model refined for this query');
+      }
+    });
+  });
+
+  // Open candidate photo
+  const openBtns = document.querySelectorAll('.open-match-btn');
+  openBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      showToast('Opening full resolution preview...');
+    });
+  });
+
+  // Refine chips toggle
+  const refineChips = document.querySelectorAll('.refine-chip');
+  refineChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const isSelected = chip.classList.contains('bg-primary-fixed');
+      if (!isSelected) {
+        chip.classList.remove('bg-surface-container-lowest', 'text-on-surface');
+        chip.classList.add('bg-primary-fixed', 'text-on-primary-fixed', 'font-medium');
+        showToast('Filter updated: ' + chip.textContent.trim());
+      } else {
+        chip.classList.add('bg-surface-container-lowest', 'text-on-surface');
+        chip.classList.remove('bg-primary-fixed', 'text-on-primary-fixed', 'font-medium');
+        showToast('Filter removed');
+      }
+    });
+  });
+
+  // Input detail
+  const sendRefineBtn = document.getElementById('sendRefineBtn');
+  const refineInput = document.getElementById('refineInput');
+  if (sendRefineBtn && refineInput) {
+    const handleAddDetail = () => {
+      const val = refineInput.value.trim();
+      if (val) {
+        showToast('Searching with added detail: "' + val + '"');
+        refineInput.value = '';
+      }
+    };
+    sendRefineBtn.addEventListener('click', handleAddDetail);
+    refineInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') handleAddDetail();
+    });
+  }
+
+  // Voice & Edit triggers
+  const micBtn = document.getElementById('micBtn');
+  if (micBtn) {
+    micBtn.addEventListener('click', () => {
+      showToast('Listening for memory description...');
+    });
+  }
+
+  const editQueryBtn = document.getElementById('editQueryBtn');
+  if (editQueryBtn) {
+    editQueryBtn.addEventListener('click', () => {
+      showToast('Query editor ready');
+    });
+  }
+
+  const addCueTrigger = document.getElementById('addCueTrigger');
+  if (addCueTrigger) {
+    addCueTrigger.addEventListener('click', () => {
+      showToast('Select a category to add memory cue');
+    });
+  }
+})();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.04)]" data-active-classes="[&amp;_div]:bg-primary-fixed [&amp;_span.material-symbols-outlined]:text-on-primary-fixed [&amp;_span.tab-label]:text-on-surface font-semibold"><div class="flex items-center justify-around h-16 px-space-xs"><a class="group flex flex-col items-center justify-center min-w-[44px] min-h-[44px] flex-1 py-1" data-path="photos" href="#"><div class="px-5 py-1 rounded-full transition-colors"><span class="material-symbols-outlined text-outline group-hover:text-on-surface transition-colors">photo_library</span></div><span class="tab-label font-label-sm text-label-sm text-on-surface-variant group-hover:text-on-surface transition-colors mt-0.5">Photos</span></a><a class="group flex flex-col items-center justify-center min-w-[44px] min-h-[44px] flex-1 py-1" data-path="memories" href="#"><div class="px-5 py-1 rounded-full transition-colors"><span class="material-symbols-outlined text-outline group-hover:text-on-surface transition-colors">auto_awesome</span></div><span class="tab-label font-label-sm text-label-sm text-on-surface-variant group-hover:text-on-surface transition-colors mt-0.5">Memories</span></a><a aria-current="page" class="group flex flex-col items-center justify-center min-w-[44px] min-h-[44px] flex-1 py-1 [&amp;_div]:bg-primary-fixed [&amp;_span.material-symbols-outlined]:text-on-primary-fixed [&amp;_span.tab-label]:text-on-surface font-semibold" data-path="search" href="#"><div class="px-5 py-1 rounded-full transition-colors"><span class="material-symbols-outlined text-outline group-hover:text-on-surface transition-colors">search</span></div><span class="tab-label font-label-sm text-label-sm text-on-surface-variant group-hover:text-on-surface transition-colors mt-0.5">Search</span></a><a class="group flex flex-col items-center justify-center min-w-[44px] min-h-[44px] flex-1 py-1" data-path="library" href="#"><div class="px-5 py-1 rounded-full transition-colors"><span class="material-symbols-outlined text-outline group-hover:text-on-surface transition-colors">collections_bookmark</span></div><span class="tab-label font-label-sm text-label-sm text-on-surface-variant group-hover:text-on-surface transition-colors mt-0.5">Library</span></a></div></nav></body></html>

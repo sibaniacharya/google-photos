@@ -1,0 +1,848 @@
+[
+  {
+    "photo_id": "photo_001",
+    "image": "/demo-photos/photo_001.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "sunset, summer",
+    "location": "Amalfi Coast",
+    "people": [
+      "friends"
+    ],
+    "event": "beach trip",
+    "objects": [
+      "yellow car"
+    ],
+    "visual_description": "friends near a yellow vintage car overlooking the sea at sunset",
+    "context": "summer road trip"
+  },
+  {
+    "photo_id": "photo_002",
+    "image": "/demo-photos/photo_002.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime, summer",
+    "location": "Malibu",
+    "people": [
+      "friends"
+    ],
+    "event": "beach trip",
+    "objects": [
+      "surfboard"
+    ],
+    "visual_description": "group of friends surfing on a sunny day",
+    "context": "summer vacation"
+  },
+  {
+    "photo_id": "photo_003",
+    "image": "/demo-photos/photo_003.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "sunrise",
+    "location": "Miami Beach",
+    "people": [],
+    "event": "beach walk",
+    "objects": [
+      "seashells"
+    ],
+    "visual_description": "empty beach with seashells at sunrise",
+    "context": "morning walk"
+  },
+  {
+    "photo_id": "photo_004",
+    "image": "/demo-photos/photo_004.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "afternoon",
+    "location": "Coastal Highway",
+    "people": [
+      "Maya",
+      "Leo"
+    ],
+    "event": "road trip",
+    "objects": [
+      "yellow car",
+      "sunglasses"
+    ],
+    "visual_description": "driving a yellow car along the coast",
+    "context": "weekend getaway"
+  },
+  {
+    "photo_id": "photo_005",
+    "image": "/demo-photos/photo_005.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "sunset, evening",
+    "location": "Beachside Restaurant",
+    "people": [
+      "friends",
+      "family"
+    ],
+    "event": "dinner",
+    "objects": [
+      "wine glasses",
+      "seafood"
+    ],
+    "visual_description": "seafood dinner by the beach at sunset",
+    "context": "birthday celebration"
+  },
+  {
+    "photo_id": "photo_006",
+    "image": "/demo-photos/photo_006.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime, spring",
+    "location": "Paris",
+    "people": [
+      "wife"
+    ],
+    "event": "vacation",
+    "objects": [
+      "Eiffel Tower",
+      "camera"
+    ],
+    "visual_description": "standing in front of the Eiffel Tower on a cloudy day",
+    "context": "anniversary trip"
+  },
+  {
+    "photo_id": "photo_007",
+    "image": "/demo-photos/photo_007.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night, winter",
+    "location": "Tokyo",
+    "people": [
+      "friends"
+    ],
+    "event": "city exploration",
+    "objects": [
+      "neon signs",
+      "umbrellas"
+    ],
+    "visual_description": "walking through rainy neon streets",
+    "context": "winter trip"
+  },
+  {
+    "photo_id": "photo_008",
+    "image": "/demo-photos/photo_008.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "morning, spring",
+    "location": "Kyoto",
+    "people": [],
+    "event": "temple visit",
+    "objects": [
+      "cherry blossoms",
+      "temple"
+    ],
+    "visual_description": "traditional temple surrounded by pink cherry blossoms",
+    "context": "spring travel"
+  },
+  {
+    "photo_id": "photo_009",
+    "image": "/demo-photos/photo_009.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime, winter",
+    "location": "Swiss Alps",
+    "people": [
+      "family",
+      "kids"
+    ],
+    "event": "ski trip",
+    "objects": [
+      "skis",
+      "snow"
+    ],
+    "visual_description": "family skiing down a snowy mountain",
+    "context": "winter holiday"
+  },
+  {
+    "photo_id": "photo_010",
+    "image": "/demo-photos/photo_010.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "evening, fall",
+    "location": "Home",
+    "people": [
+      "parents",
+      "grandparents"
+    ],
+    "event": "Thanksgiving dinner",
+    "objects": [
+      "turkey",
+      "dining table"
+    ],
+    "visual_description": "large family sitting around a thanksgiving feast",
+    "context": "holiday gathering"
+  },
+  {
+    "photo_id": "photo_011",
+    "image": "/demo-photos/photo_011.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "afternoon, summer",
+    "location": "Backyard",
+    "people": [
+      "cousins",
+      "uncle"
+    ],
+    "event": "BBQ",
+    "objects": [
+      "grill",
+      "burgers"
+    ],
+    "visual_description": "family barbecue in the backyard on a sunny day",
+    "context": "summer cookout"
+  },
+  {
+    "photo_id": "photo_012",
+    "image": "/demo-photos/photo_012.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "morning, winter",
+    "location": "Living Room",
+    "people": [
+      "siblings"
+    ],
+    "event": "Christmas morning",
+    "objects": [
+      "presents",
+      "Christmas tree"
+    ],
+    "visual_description": "opening presents under the christmas tree",
+    "context": "christmas"
+  },
+  {
+    "photo_id": "photo_013",
+    "image": "/demo-photos/photo_013.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "evening",
+    "location": "Indoor Cafe",
+    "people": [
+      "Maya",
+      "friends"
+    ],
+    "event": "birthday party",
+    "objects": [
+      "birthday cake",
+      "candles"
+    ],
+    "visual_description": "blowing out candles on a chocolate cake indoors",
+    "context": "25th birthday"
+  },
+  {
+    "photo_id": "photo_014",
+    "image": "/demo-photos/photo_014.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "afternoon, spring",
+    "location": "Park",
+    "people": [
+      "kids",
+      "family"
+    ],
+    "event": "birthday picnic",
+    "objects": [
+      "balloons",
+      "picnic blanket"
+    ],
+    "visual_description": "outdoor birthday picnic with balloons and cake",
+    "context": "kids birthday"
+  },
+  {
+    "photo_id": "photo_015",
+    "image": "/demo-photos/photo_015.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Fancy Restaurant",
+    "people": [
+      "husband"
+    ],
+    "event": "birthday dinner",
+    "objects": [
+      "wine",
+      "steak"
+    ],
+    "visual_description": "romantic birthday dinner at a dimly lit restaurant",
+    "context": "milestone birthday"
+  },
+  {
+    "photo_id": "photo_016",
+    "image": "/demo-photos/photo_016.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Downtown",
+    "people": [
+      "best friends"
+    ],
+    "event": "night out",
+    "objects": [
+      "drinks",
+      "neon lights"
+    ],
+    "visual_description": "group selfie on a busy downtown street at night",
+    "context": "weekend night out"
+  },
+  {
+    "photo_id": "photo_017",
+    "image": "/demo-photos/photo_017.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "evening",
+    "location": "Apartment",
+    "people": [
+      "roommates"
+    ],
+    "event": "game night",
+    "objects": [
+      "board games",
+      "pizza"
+    ],
+    "visual_description": "playing board games and eating pizza on the floor",
+    "context": "casual hangout"
+  },
+  {
+    "photo_id": "photo_018",
+    "image": "/demo-photos/photo_018.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "afternoon",
+    "location": "Coffee Shop",
+    "people": [
+      "colleague"
+    ],
+    "event": "coffee catchup",
+    "objects": [
+      "coffee cups",
+      "laptop"
+    ],
+    "visual_description": "two people chatting over coffee near a window",
+    "context": "afternoon break"
+  },
+  {
+    "photo_id": "photo_019",
+    "image": "/demo-photos/photo_019.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "evening",
+    "location": "Italian Restaurant",
+    "people": [
+      "family"
+    ],
+    "event": "dinner",
+    "objects": [
+      "pizza",
+      "pasta"
+    ],
+    "visual_description": "eating large pizzas at an authentic italian place",
+    "context": "family dinner"
+  },
+  {
+    "photo_id": "photo_020",
+    "image": "/demo-photos/photo_020.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Sushi Bar",
+    "people": [
+      "friends"
+    ],
+    "event": "dinner",
+    "objects": [
+      "sushi rolls",
+      "chopsticks"
+    ],
+    "visual_description": "colorful sushi platter on a wooden counter",
+    "context": "celebration dinner"
+  },
+  {
+    "photo_id": "photo_021",
+    "image": "/demo-photos/photo_021.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Street Food Market",
+    "people": [],
+    "event": "food tour",
+    "objects": [
+      "tacos",
+      "food truck"
+    ],
+    "visual_description": "tacos from a brightly lit food truck",
+    "context": "night market"
+  },
+  {
+    "photo_id": "photo_022",
+    "image": "/demo-photos/photo_022.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime",
+    "location": "Church",
+    "people": [
+      "bride",
+      "groom"
+    ],
+    "event": "wedding ceremony",
+    "objects": [
+      "wedding dress",
+      "flowers"
+    ],
+    "visual_description": "bride and groom walking down the aisle",
+    "context": "wedding day"
+  },
+  {
+    "photo_id": "photo_023",
+    "image": "/demo-photos/photo_023.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Banquet Hall",
+    "people": [
+      "friends",
+      "newlyweds"
+    ],
+    "event": "wedding reception",
+    "objects": [
+      "dance floor",
+      "suit"
+    ],
+    "visual_description": "friends dancing enthusiastically at a wedding reception",
+    "context": "wedding party"
+  },
+  {
+    "photo_id": "photo_024",
+    "image": "/demo-photos/photo_024.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "afternoon, summer",
+    "location": "Outdoor Garden",
+    "people": [
+      "bridesmaids"
+    ],
+    "event": "wedding photoshoot",
+    "objects": [
+      "bouquets",
+      "pink dresses"
+    ],
+    "visual_description": "bridesmaids posing in a lush green garden",
+    "context": "wedding prep"
+  },
+  {
+    "photo_id": "photo_025",
+    "image": "/demo-photos/photo_025.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "morning",
+    "location": "Office",
+    "people": [
+      "coworkers"
+    ],
+    "event": "team meeting",
+    "objects": [
+      "whiteboard",
+      "laptops"
+    ],
+    "visual_description": "team brainstorming around a whiteboard",
+    "context": "project planning"
+  },
+  {
+    "photo_id": "photo_026",
+    "image": "/demo-photos/photo_026.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime",
+    "location": "Conference Center",
+    "people": [
+      "colleagues"
+    ],
+    "event": "tech conference",
+    "objects": [
+      "badges",
+      "stage"
+    ],
+    "visual_description": "group photo wearing conference lanyards",
+    "context": "annual summit"
+  },
+  {
+    "photo_id": "photo_027",
+    "image": "/demo-photos/photo_027.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime",
+    "location": "Home Office",
+    "people": [
+      "me"
+    ],
+    "event": "working from home",
+    "objects": [
+      "monitor",
+      "coffee mug",
+      "cat"
+    ],
+    "visual_description": "desk setup with a monitor and a cat sleeping on the keyboard",
+    "context": "remote work"
+  },
+  {
+    "photo_id": "photo_028",
+    "image": "/demo-photos/photo_028.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime, spring",
+    "location": "University Campus",
+    "people": [
+      "friends",
+      "classmates"
+    ],
+    "event": "graduation",
+    "objects": [
+      "caps",
+      "gowns",
+      "diplomas"
+    ],
+    "visual_description": "throwing graduation caps in the air in front of a brick building",
+    "context": "college graduation"
+  },
+  {
+    "photo_id": "photo_029",
+    "image": "/demo-photos/photo_029.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Library",
+    "people": [
+      "study group"
+    ],
+    "event": "exam prep",
+    "objects": [
+      "textbooks",
+      "highlighters"
+    ],
+    "visual_description": "stressed students surrounded by piles of books late at night",
+    "context": "finals week"
+  },
+  {
+    "photo_id": "photo_030",
+    "image": "/demo-photos/photo_030.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime, fall",
+    "location": "Dorm Room",
+    "people": [
+      "roommate"
+    ],
+    "event": "moving in",
+    "objects": [
+      "boxes",
+      "posters"
+    ],
+    "visual_description": "unpacking cardboard boxes in a small dorm room",
+    "context": "freshman year"
+  },
+  {
+    "photo_id": "photo_031",
+    "image": "/demo-photos/photo_031.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "sunset, summer",
+    "location": "Desert",
+    "people": [
+      "friends"
+    ],
+    "event": "music festival",
+    "objects": [
+      "ferris wheel",
+      "sunglasses",
+      "glitter"
+    ],
+    "visual_description": "crowd watching a stage with a brightly lit ferris wheel in the background",
+    "context": "coachella"
+  },
+  {
+    "photo_id": "photo_032",
+    "image": "/demo-photos/photo_032.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "afternoon",
+    "location": "City Park",
+    "people": [],
+    "event": "food festival",
+    "objects": [
+      "food tents",
+      "crowd"
+    ],
+    "visual_description": "busy outdoor food festival with colorful tents",
+    "context": "local festival"
+  },
+  {
+    "photo_id": "photo_033",
+    "image": "/demo-photos/photo_033.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Concert Arena",
+    "people": [
+      "friends"
+    ],
+    "event": "concert",
+    "objects": [
+      "stage lights",
+      "confetti"
+    ],
+    "visual_description": "blinding stage lights and confetti falling on a cheering crowd",
+    "context": "live music"
+  },
+  {
+    "photo_id": "photo_034",
+    "image": "/demo-photos/photo_034.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime, summer",
+    "location": "Desert Highway",
+    "people": [
+      "friends"
+    ],
+    "event": "road trip",
+    "objects": [
+      "convertible car",
+      "cactus"
+    ],
+    "visual_description": "driving a convertible through a desert landscape",
+    "context": "cross country trip"
+  },
+  {
+    "photo_id": "photo_035",
+    "image": "/demo-photos/photo_035.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "morning, winter",
+    "location": "Mountain Pass",
+    "people": [
+      "Maya"
+    ],
+    "event": "road trip",
+    "objects": [
+      "mountains",
+      "snow"
+    ],
+    "visual_description": "car parked at a scenic mountain overlook with snowy peaks",
+    "context": "mountain drive"
+  },
+  {
+    "photo_id": "photo_036",
+    "image": "/demo-photos/photo_036.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Gas Station",
+    "people": [
+      "friends"
+    ],
+    "event": "pit stop",
+    "objects": [
+      "gas pump",
+      "snacks"
+    ],
+    "visual_description": "buying snacks at a retro gas station",
+    "context": "late night drive"
+  },
+  {
+    "photo_id": "photo_037",
+    "image": "/demo-photos/photo_037.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "sunset",
+    "location": "City Skyline",
+    "people": [],
+    "event": "sightseeing",
+    "objects": [
+      "skyscrapers",
+      "sun"
+    ],
+    "visual_description": "sun setting behind a dramatic city skyline",
+    "context": "golden hour"
+  },
+  {
+    "photo_id": "photo_038",
+    "image": "/demo-photos/photo_038.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "sunset, fall",
+    "location": "Lake",
+    "people": [
+      "dog"
+    ],
+    "event": "evening walk",
+    "objects": [
+      "water",
+      "trees"
+    ],
+    "visual_description": "silhouette of a dog sitting by a calm lake at sunset",
+    "context": "peaceful evening"
+  },
+  {
+    "photo_id": "photo_039",
+    "image": "/demo-photos/photo_039.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night, winter",
+    "location": "Apartment",
+    "people": [
+      "friends"
+    ],
+    "event": "house party",
+    "objects": [
+      "red cups",
+      "speaker"
+    ],
+    "visual_description": "crowded house party with red solo cups",
+    "context": "new years eve"
+  },
+  {
+    "photo_id": "photo_040",
+    "image": "/demo-photos/photo_040.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "evening",
+    "location": "Dining Room",
+    "people": [
+      "family"
+    ],
+    "event": "dinner party",
+    "objects": [
+      "fancy plates",
+      "candles"
+    ],
+    "visual_description": "elegant indoor dinner setup with candles",
+    "context": "hosting friends"
+  },
+  {
+    "photo_id": "photo_041",
+    "image": "/demo-photos/photo_041.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "afternoon, spring",
+    "location": "Local Park",
+    "people": [
+      "friends"
+    ],
+    "event": "picnic",
+    "objects": [
+      "picnic basket",
+      "frisbee"
+    ],
+    "visual_description": "group of friends sitting on the grass playing frisbee",
+    "context": "sunny weekend"
+  },
+  {
+    "photo_id": "photo_042",
+    "image": "/demo-photos/photo_042.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night, summer",
+    "location": "Campsite",
+    "people": [
+      "family",
+      "kids"
+    ],
+    "event": "camping",
+    "objects": [
+      "tent",
+      "campfire"
+    ],
+    "visual_description": "roasting marshmallows over a campfire near a green tent",
+    "context": "weekend camping trip"
+  },
+  {
+    "photo_id": "photo_043",
+    "image": "/demo-photos/photo_043.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "morning, fall",
+    "location": "Childhood Home",
+    "people": [
+      "me",
+      "mom"
+    ],
+    "event": "first day of school",
+    "objects": [
+      "backpack",
+      "yellow school bus"
+    ],
+    "visual_description": "faded old photo of a kid with a huge backpack waiting for the bus",
+    "context": "childhood"
+  },
+  {
+    "photo_id": "photo_044",
+    "image": "/demo-photos/photo_044.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "daytime, summer",
+    "location": "Theme Park",
+    "people": [
+      "family"
+    ],
+    "event": "vacation",
+    "objects": [
+      "rollercoaster",
+      "cotton candy"
+    ],
+    "visual_description": "vintage grainy photo of a family eating cotton candy near a rollercoaster",
+    "context": "disney trip"
+  },
+  {
+    "photo_id": "photo_045",
+    "image": "/demo-photos/photo_045.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "afternoon",
+    "location": "Living Room",
+    "people": [
+      "cat"
+    ],
+    "event": "sleeping",
+    "objects": [
+      "sofa",
+      "sunbeam"
+    ],
+    "visual_description": "orange tabby cat sleeping in a patch of sunlight on the sofa",
+    "context": "lazy sunday"
+  },
+  {
+    "photo_id": "photo_046",
+    "image": "/demo-photos/photo_046.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "morning",
+    "location": "Dog Park",
+    "people": [
+      "dog",
+      "other dogs"
+    ],
+    "event": "playing",
+    "objects": [
+      "tennis ball",
+      "grass"
+    ],
+    "visual_description": "golden retriever running with a tennis ball in its mouth",
+    "context": "dog park visit"
+  },
+  {
+    "photo_id": "photo_047",
+    "image": "/demo-photos/photo_047.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "night",
+    "location": "Bed",
+    "people": [
+      "puppy"
+    ],
+    "event": "cuddling",
+    "objects": [
+      "blanket"
+    ],
+    "visual_description": "tiny puppy wrapped in a fuzzy blanket",
+    "context": "new puppy"
+  },
+  {
+    "photo_id": "photo_048",
+    "image": "/demo-photos/photo_048.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "",
+    "location": "",
+    "people": [],
+    "event": "",
+    "objects": [
+      "receipt",
+      "text"
+    ],
+    "visual_description": "screenshot of an online order receipt for concert tickets",
+    "context": "ticket purchase"
+  },
+  {
+    "photo_id": "photo_049",
+    "image": "/demo-photos/photo_049.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "",
+    "location": "",
+    "people": [],
+    "event": "",
+    "objects": [
+      "map",
+      "directions"
+    ],
+    "visual_description": "screenshot of google maps directions to a hiking trail",
+    "context": "trip planning"
+  },
+  {
+    "photo_id": "photo_050",
+    "image": "/demo-photos/photo_050.jpg",
+    "date": "2023-07-18",
+    "approximate_time": "",
+    "location": "",
+    "people": [],
+    "event": "",
+    "objects": [
+      "funny meme",
+      "text"
+    ],
+    "visual_description": "screenshot of a funny internet meme about waking up early",
+    "context": "meme stash"
+  }
+]

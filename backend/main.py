@@ -98,6 +98,9 @@ def extract_records(req: ExtractRequest):
         else:
             raise HTTPException(status_code=500, detail=f"AI Engine error: {error_class.error_message}")
 
+from mvp_router import router as mvp_router
+app.include_router(mvp_router)
+
 if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))

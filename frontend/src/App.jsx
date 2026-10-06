@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import MemorySearch from './MemorySearch';
 
 export default function App() {
   const [currentRoute, setCurrentRoute] = useState(() => {
@@ -26,7 +27,8 @@ export default function App() {
     { label: 'Opportunity', route: 'opportunity' },
     { label: 'Audit', route: 'audit' },
     { label: 'Methodology', route: 'methodology' },
-    { label: 'Run Engine', route: 'run-engine' }
+    { label: 'Run Engine', route: 'run-engine' },
+    { label: 'Memory Search MVP', route: 'search' }
   ];
 
   const filterPills = [
@@ -496,6 +498,9 @@ export default function App() {
 
         {/* RUN ENGINE TAB */}
         {currentRoute === 'run-engine' && <RunEngineSection />}
+
+        {/* MEMORY SEARCH MVP TAB */}
+        {currentRoute === 'search' && <MemorySearch />}
 
       </main>
     </div>
