@@ -128,6 +128,10 @@ def rank_candidates(cues: MemoryCues, library: List[Dict[str, Any]], rejected_ca
         else:
             match_level = "Weak match"
             
+        # remove duplicates preserving order
+        matched = list(dict.fromkeys(matched))
+        uncertain = list(dict.fromkeys(uncertain))
+        
         # create explanation
         if matched and uncertain:
             reason = f"Matches: {', '.join(matched)}. Uncertain: {', '.join(uncertain)}."

@@ -306,34 +306,24 @@
     "photo_id": "photo_019",
     "image": "/demo-photos/photo_019.jpg",
     "date": "2023-07-18",
-    "approximate_time": "evening",
-    "location": "Italian Restaurant",
-    "people": [
-      "family"
-    ],
-    "event": "dinner",
-    "objects": [
-      "pizza",
-      "pasta"
-    ],
-    "visual_description": "family eating large pizzas at an authentic italian place",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "family dinner"
   },
   {
     "photo_id": "photo_020",
     "image": "/demo-photos/photo_020.jpg",
     "date": "2023-07-18",
-    "approximate_time": "night",
-    "location": "Sushi Bar",
-    "people": [
-      "friends"
-    ],
-    "event": "dinner",
-    "objects": [
-      "sushi rolls",
-      "chopsticks"
-    ],
-    "visual_description": "friends sharing a colorful sushi platter on a wooden counter",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "celebration dinner"
   },
   {
@@ -355,36 +345,24 @@
     "photo_id": "photo_022",
     "image": "/demo-photos/photo_022.jpg",
     "date": "2023-07-18",
-    "approximate_time": "daytime",
-    "location": "Church",
-    "people": [
-      "bride",
-      "groom"
-    ],
-    "event": "wedding ceremony",
-    "objects": [
-      "wedding dress",
-      "flowers"
-    ],
-    "visual_description": "bride and groom walking down the aisle",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "wedding day"
   },
   {
     "photo_id": "photo_023",
     "image": "/demo-photos/photo_023.jpg",
     "date": "2023-07-18",
-    "approximate_time": "night",
-    "location": "Banquet Hall",
-    "people": [
-      "friends",
-      "newlyweds"
-    ],
-    "event": "wedding reception",
-    "objects": [
-      "dance floor",
-      "suit"
-    ],
-    "visual_description": "friends dancing enthusiastically at a wedding reception",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "wedding party"
   },
   {
@@ -408,34 +386,24 @@
     "photo_id": "photo_025",
     "image": "/demo-photos/photo_025.jpg",
     "date": "2023-07-18",
-    "approximate_time": "morning",
-    "location": "Office",
-    "people": [
-      "coworkers"
-    ],
-    "event": "team meeting",
-    "objects": [
-      "whiteboard",
-      "laptops"
-    ],
-    "visual_description": "team brainstorming around a whiteboard",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "project planning"
   },
   {
     "photo_id": "photo_026",
     "image": "/demo-photos/photo_026.jpg",
     "date": "2023-07-18",
-    "approximate_time": "daytime",
-    "location": "Conference Center",
-    "people": [
-      "colleagues"
-    ],
-    "event": "tech conference",
-    "objects": [
-      "badges",
-      "stage"
-    ],
-    "visual_description": "group photo wearing conference lanyards",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "annual summit"
   },
   {
@@ -477,34 +445,24 @@
     "photo_id": "photo_029",
     "image": "/demo-photos/photo_029.jpg",
     "date": "2023-07-18",
-    "approximate_time": "night",
-    "location": "Library",
-    "people": [
-      "study group"
-    ],
-    "event": "exam prep",
-    "objects": [
-      "textbooks",
-      "highlighters"
-    ],
-    "visual_description": "stressed students surrounded by piles of books late at night",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "finals week"
   },
   {
     "photo_id": "photo_030",
     "image": "/demo-photos/photo_030.jpg",
     "date": "2023-07-18",
-    "approximate_time": "daytime, fall",
-    "location": "Dorm Room",
-    "people": [
-      "roommate"
-    ],
-    "event": "moving in",
-    "objects": [
-      "boxes",
-      "posters"
-    ],
-    "visual_description": "roommate unpacking cardboard boxes in a small dorm room",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "freshman year"
   },
   {
@@ -529,32 +487,24 @@
     "photo_id": "photo_032",
     "image": "/demo-photos/photo_032.jpg",
     "date": "2023-07-18",
-    "approximate_time": "afternoon",
-    "location": "City Park",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
     "people": [],
-    "event": "food festival",
-    "objects": [
-      "food tents",
-      "crowd"
-    ],
-    "visual_description": "busy outdoor food festival with colorful tents",
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "local festival"
   },
   {
     "photo_id": "photo_033",
     "image": "/demo-photos/photo_033.jpg",
     "date": "2023-07-18",
-    "approximate_time": "night",
-    "location": "Concert Arena",
-    "people": [
-      "friends"
-    ],
-    "event": "concert",
-    "objects": [
-      "stage lights",
-      "confetti"
-    ],
-    "visual_description": "blinding stage lights and confetti falling on a cheering crowd",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "live music"
   },
   {
@@ -595,66 +545,48 @@
     "photo_id": "photo_036",
     "image": "/demo-photos/photo_036.jpg",
     "date": "2023-07-18",
-    "approximate_time": "night",
-    "location": "Gas Station",
-    "people": [
-      "friends"
-    ],
-    "event": "pit stop",
-    "objects": [
-      "gas pump",
-      "snacks"
-    ],
-    "visual_description": "friends buying snacks at a retro gas station",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "late night drive"
   },
   {
     "photo_id": "photo_037",
     "image": "/demo-photos/photo_037.jpg",
     "date": "2023-07-18",
-    "approximate_time": "sunset",
-    "location": "City Skyline",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
     "people": [],
-    "event": "sightseeing",
-    "objects": [
-      "skyscrapers",
-      "sun"
-    ],
-    "visual_description": "sun setting behind a dramatic city skyline",
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "golden hour"
   },
   {
     "photo_id": "photo_038",
     "image": "/demo-photos/photo_038.jpg",
     "date": "2023-07-18",
-    "approximate_time": "sunset, fall",
-    "location": "Lake",
-    "people": [
-      "dog"
-    ],
-    "event": "evening walk",
-    "objects": [
-      "water",
-      "trees"
-    ],
-    "visual_description": "silhouette of a dog sitting by a calm lake at sunset",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "peaceful evening"
   },
   {
     "photo_id": "photo_039",
     "image": "/demo-photos/photo_039.jpg",
     "date": "2023-07-18",
-    "approximate_time": "night, winter",
-    "location": "Apartment",
-    "people": [
-      "friends"
-    ],
-    "event": "house party",
-    "objects": [
-      "red cups",
-      "speaker"
-    ],
-    "visual_description": "crowded house party with red solo cups",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "new years eve"
   },
   {
@@ -678,17 +610,12 @@
     "photo_id": "photo_041",
     "image": "/demo-photos/photo_041.jpg",
     "date": "2023-07-18",
-    "approximate_time": "afternoon, spring",
-    "location": "Local Park",
-    "people": [
-      "friends"
-    ],
-    "event": "picnic",
-    "objects": [
-      "picnic basket",
-      "frisbee"
-    ],
-    "visual_description": "group of friends sitting on the grass playing frisbee",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "sunny weekend"
   },
   {
@@ -713,35 +640,24 @@
     "photo_id": "photo_043",
     "image": "/demo-photos/photo_043.jpg",
     "date": "2023-07-18",
-    "approximate_time": "morning, fall",
-    "location": "Childhood Home",
-    "people": [
-      "me",
-      "mom"
-    ],
-    "event": "first day of school",
-    "objects": [
-      "backpack",
-      "yellow school bus"
-    ],
-    "visual_description": "faded old photo of a kid with a huge backpack waiting for the bus",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "childhood"
   },
   {
     "photo_id": "photo_044",
     "image": "/demo-photos/photo_044.jpg",
     "date": "2023-07-18",
-    "approximate_time": "daytime, summer",
-    "location": "Theme Park",
-    "people": [
-      "family"
-    ],
-    "event": "vacation",
-    "objects": [
-      "rollercoaster",
-      "cotton candy"
-    ],
-    "visual_description": "vintage grainy photo of a family eating cotton candy near a rollercoaster",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "disney trip"
   },
   {
@@ -765,79 +681,60 @@
     "photo_id": "photo_046",
     "image": "/demo-photos/photo_046.jpg",
     "date": "2023-07-18",
-    "approximate_time": "morning",
-    "location": "Dog Park",
-    "people": [
-      "dog",
-      "other dogs"
-    ],
-    "event": "playing",
-    "objects": [
-      "tennis ball",
-      "grass"
-    ],
-    "visual_description": "golden retriever running with a tennis ball in its mouth",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "dog park visit"
   },
   {
     "photo_id": "photo_047",
     "image": "/demo-photos/photo_047.jpg",
     "date": "2023-07-18",
-    "approximate_time": "night",
-    "location": "Bed",
-    "people": [
-      "puppy"
-    ],
-    "event": "cuddling",
-    "objects": [
-      "blanket"
-    ],
-    "visual_description": "tiny puppy wrapped in a fuzzy blanket",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
+    "people": [],
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "new puppy"
   },
   {
     "photo_id": "photo_048",
     "image": "/demo-photos/photo_048.jpg",
     "date": "2023-07-18",
-    "approximate_time": "",
-    "location": "",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
     "people": [],
-    "event": "",
-    "objects": [
-      "receipt",
-      "text"
-    ],
-    "visual_description": "screenshot of an online order receipt for concert tickets",
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "ticket purchase"
   },
   {
     "photo_id": "photo_049",
     "image": "/demo-photos/photo_049.jpg",
     "date": "2023-07-18",
-    "approximate_time": "",
-    "location": "",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
     "people": [],
-    "event": "",
-    "objects": [
-      "map",
-      "directions"
-    ],
-    "visual_description": "screenshot of google maps directions to a hiking trail",
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "trip planning"
   },
   {
     "photo_id": "photo_050",
     "image": "/demo-photos/photo_050.jpg",
     "date": "2023-07-18",
-    "approximate_time": "",
-    "location": "",
+    "approximate_time": "UNKNOWN",
+    "location": "unknown place",
     "people": [],
-    "event": "",
-    "objects": [
-      "funny meme",
-      "text"
-    ],
-    "visual_description": "screenshot of a funny internet meme about waking up early",
+    "event": "unknown event",
+    "objects": [],
+    "visual_description": "A random photograph.",
     "context": "meme stash"
   }
 ]
