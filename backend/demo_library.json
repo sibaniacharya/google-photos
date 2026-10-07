@@ -60,7 +60,7 @@
       "yellow car",
       "sunglasses"
     ],
-    "visual_description": "driving a yellow car along the coast",
+    "visual_description": "Maya and Leo driving a yellow car along the coast near the sea",
     "context": "weekend getaway"
   },
   {
@@ -95,7 +95,7 @@
       "Eiffel Tower",
       "camera"
     ],
-    "visual_description": "standing in front of the Eiffel Tower on a cloudy day",
+    "visual_description": "wife standing in front of the Eiffel Tower on a cloudy day",
     "context": "anniversary trip"
   },
   {
@@ -112,7 +112,7 @@
       "neon signs",
       "umbrellas"
     ],
-    "visual_description": "walking through rainy neon streets",
+    "visual_description": "friends walking through rainy neon streets",
     "context": "winter trip"
   },
   {
@@ -198,7 +198,7 @@
       "presents",
       "Christmas tree"
     ],
-    "visual_description": "opening presents under the christmas tree",
+    "visual_description": "siblings opening presents under the christmas tree",
     "context": "christmas"
   },
   {
@@ -216,7 +216,7 @@
       "birthday cake",
       "candles"
     ],
-    "visual_description": "blowing out candles on a chocolate cake indoors",
+    "visual_description": "Maya and friends blowing out candles on a chocolate cake indoors",
     "context": "25th birthday"
   },
   {
@@ -251,7 +251,7 @@
       "wine",
       "steak"
     ],
-    "visual_description": "romantic birthday dinner at a dimly lit restaurant",
+    "visual_description": "husband at a romantic birthday dinner at a dimly lit restaurant",
     "context": "milestone birthday"
   },
   {
@@ -285,7 +285,7 @@
       "board games",
       "pizza"
     ],
-    "visual_description": "playing board games and eating pizza on the floor",
+    "visual_description": "roommates playing board games and eating pizza on the floor",
     "context": "casual hangout"
   },
   {
@@ -295,14 +295,14 @@
     "approximate_time": "afternoon",
     "location": "Coffee Shop",
     "people": [
-      "colleague"
+      "colleagues"
     ],
     "event": "coffee catchup",
     "objects": [
       "coffee cups",
       "laptop"
     ],
-    "visual_description": "two people chatting over coffee near a window",
+    "visual_description": "two colleagues chatting over coffee near a window",
     "context": "afternoon break"
   },
   {
@@ -319,7 +319,7 @@
       "pizza",
       "pasta"
     ],
-    "visual_description": "eating large pizzas at an authentic italian place",
+    "visual_description": "family eating large pizzas at an authentic italian place",
     "context": "family dinner"
   },
   {
@@ -336,7 +336,7 @@
       "sushi rolls",
       "chopsticks"
     ],
-    "visual_description": "colorful sushi platter on a wooden counter",
+    "visual_description": "friends sharing a colorful sushi platter on a wooden counter",
     "context": "celebration dinner"
   },
   {
@@ -447,9 +447,7 @@
     "date": "2023-07-18",
     "approximate_time": "daytime",
     "location": "Home Office",
-    "people": [
-      "me"
-    ],
+    "people": [],
     "event": "working from home",
     "objects": [
       "monitor",
@@ -509,7 +507,7 @@
       "boxes",
       "posters"
     ],
-    "visual_description": "unpacking cardboard boxes in a small dorm room",
+    "visual_description": "roommate unpacking cardboard boxes in a small dorm room",
     "context": "freshman year"
   },
   {
@@ -576,7 +574,7 @@
       "convertible car",
       "cactus"
     ],
-    "visual_description": "driving a convertible through a desert landscape",
+    "visual_description": "friends driving a convertible through a desert landscape",
     "context": "cross country trip"
   },
   {
@@ -586,14 +584,14 @@
     "approximate_time": "morning, winter",
     "location": "Mountain Pass",
     "people": [
-      "Maya"
+      "friends"
     ],
     "event": "road trip",
     "objects": [
       "mountains",
       "snow"
     ],
-    "visual_description": "car parked at a scenic mountain overlook with snowy peaks",
+    "visual_description": "friends standing by a car parked at a scenic mountain overlook with snowy peaks",
     "context": "mountain drive"
   },
   {
@@ -610,7 +608,7 @@
       "gas pump",
       "snacks"
     ],
-    "visual_description": "buying snacks at a retro gas station",
+    "visual_description": "friends buying snacks at a retro gas station",
     "context": "late night drive"
   },
   {
@@ -667,17 +665,17 @@
     "image": "/demo-photos/photo_040.jpg",
     "date": "2023-07-18",
     "approximate_time": "evening",
-    "location": "Dining Room",
+    "location": "Home",
     "people": [
       "family"
     ],
-    "event": "dinner party",
+    "event": "birthday dinner",
     "objects": [
-      "fancy plates",
+      "birthday cake",
       "candles"
     ],
-    "visual_description": "elegant indoor dinner setup with candles",
-    "context": "hosting friends"
+    "visual_description": "family enjoying a birthday dinner at home with a glowing cake",
+    "context": "family birthday"
   },
   {
     "photo_id": "photo_041",
