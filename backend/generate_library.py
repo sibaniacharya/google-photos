@@ -4,10 +4,10 @@ from PIL import Image, ImageDraw, ImageFont
 
 scenarios = [
     # 1. Beach / coastal trips
-    {"id": "001", "loc": "Amalfi Coast", "ppl": ["friends"], "evt": "beach trip", "obj": ["yellow car"], "vis": "friends near a yellow vintage car overlooking the sea at sunset", "ctx": "summer road trip", "time": "sunset, summer"},
+    {"id": "001", "loc": "Malibu Beach", "ppl": ["friends"], "evt": "beach trip", "obj": ["sand", "ocean"], "vis": "group of friends laughing and hanging out on a beach at sunset", "ctx": "summer vacation", "time": "sunset, summer"},
     {"id": "002", "loc": "Malibu", "ppl": ["friends"], "evt": "beach trip", "obj": ["surfboard"], "vis": "group of friends surfing on a sunny day", "ctx": "summer vacation", "time": "daytime, summer"},
     {"id": "003", "loc": "Miami Beach", "ppl": [], "evt": "beach walk", "obj": ["seashells"], "vis": "empty beach with seashells at sunrise", "ctx": "morning walk", "time": "sunrise"},
-    {"id": "004", "loc": "Coastal Highway", "ppl": ["Maya", "Leo"], "evt": "road trip", "obj": ["yellow car", "sunglasses"], "vis": "Maya and Leo driving a yellow car along the coast near the sea", "ctx": "weekend getaway", "time": "afternoon"},
+    {"id": "004", "loc": "Coastal Highway", "ppl": [], "evt": "road trip", "obj": ["yellow car"], "vis": "A yellow car parked near a scenic sea coastal road", "ctx": "weekend getaway", "time": "afternoon"},
     {"id": "005", "loc": "Beachside Restaurant", "ppl": ["friends", "family"], "evt": "dinner", "obj": ["wine glasses", "seafood"], "vis": "seafood dinner by the beach at sunset", "ctx": "birthday celebration", "time": "sunset, evening"},
     
     # 2. Travel

@@ -4,16 +4,17 @@
     "image": "/demo-photos/photo_001.jpg",
     "date": "2023-07-18",
     "approximate_time": "sunset, summer",
-    "location": "Amalfi Coast",
+    "location": "Malibu Beach",
     "people": [
       "friends"
     ],
     "event": "beach trip",
     "objects": [
-      "yellow car"
+      "sand",
+      "ocean"
     ],
-    "visual_description": "friends near a yellow vintage car overlooking the sea at sunset",
-    "context": "summer road trip"
+    "visual_description": "group of friends laughing and hanging out on a beach at sunset",
+    "context": "summer vacation"
   },
   {
     "photo_id": "photo_002",
@@ -51,16 +52,12 @@
     "date": "2023-07-18",
     "approximate_time": "afternoon",
     "location": "Coastal Highway",
-    "people": [
-      "Maya",
-      "Leo"
-    ],
+    "people": [],
     "event": "road trip",
     "objects": [
-      "yellow car",
-      "sunglasses"
+      "yellow car"
     ],
-    "visual_description": "Maya and Leo driving a yellow car along the coast near the sea",
+    "visual_description": "A yellow car parked near a scenic sea coastal road",
     "context": "weekend getaway"
   },
   {

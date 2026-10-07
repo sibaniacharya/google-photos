@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import json
 import os
 import math
+import re
 from typing import List, Dict, Any
 
 from ai_engine.mvp_schemas import MemoryCues, SearchCandidate, SearchResponse, RefineRequest, RefineResponse
@@ -57,13 +58,17 @@ def rank_candidates(cues: MemoryCues, library: List[Dict[str, Any]], rejected_ca
         matched = []
         uncertain = []
         
-        # very simple keyword matching for MVP
+        # very simple keyword matching for MVP, but with word boundaries
         text_fields = f"{photo.get('location','')} {photo.get('event','')} {photo.get('approximate_time','')} {photo.get('visual_description','')} {photo.get('context','')} {' '.join(photo.get('people',[]))} {' '.join(photo.get('objects',[]))}".lower()
+        
+        def is_match(cue: str, text: str) -> bool:
+            pattern = r'\b' + re.escape(cue.lower()) + r'\b'
+            return bool(re.search(pattern, text))
         
         if people:
             max_possible += 25
             for p in people:
-                if p.lower() in text_fields:
+                if is_match(p, text_fields):
                     score += (25 / len(people))
                     matched.append(p)
                 else:
@@ -71,7 +76,7 @@ def rank_candidates(cues: MemoryCues, library: List[Dict[str, Any]], rejected_ca
                     
         if place:
             max_possible += 20
-            if place.lower() in text_fields:
+            if is_match(place, text_fields):
                 score += 20
                 matched.append(place)
             else:
@@ -79,7 +84,7 @@ def rank_candidates(cues: MemoryCues, library: List[Dict[str, Any]], rejected_ca
                 
         if event:
             max_possible += 15
-            if event.lower() in text_fields:
+            if is_match(event, text_fields):
                 score += 15
                 matched.append(event)
             else:
@@ -87,7 +92,7 @@ def rank_candidates(cues: MemoryCues, library: List[Dict[str, Any]], rejected_ca
                 
         if time:
             max_possible += 15
-            if time.lower() in text_fields:
+            if is_match(time, text_fields):
                 score += 15
                 matched.append(time)
             else:
@@ -96,7 +101,7 @@ def rank_candidates(cues: MemoryCues, library: List[Dict[str, Any]], rejected_ca
         if visual:
             max_possible += 15
             for v in visual:
-                if v.lower() in text_fields:
+                if is_match(v, text_fields):
                     score += (15 / len(visual))
                     matched.append(v)
                 else:
@@ -105,7 +110,7 @@ def rank_candidates(cues: MemoryCues, library: List[Dict[str, Any]], rejected_ca
         if objects:
             max_possible += 10
             for obj in objects:
-                if obj.lower() in text_fields:
+                if is_match(obj, text_fields):
                     score += (10 / len(objects))
                     matched.append(obj)
                 else:
